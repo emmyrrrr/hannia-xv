@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#b76e79"
+    >
+
+    <title>XV Años de Hannia Danae</title>
+
+    <meta
+        name="description"
+        content="Invitación a los XV años de Hannia Danae"
+    >
+
+    <!-- Google Fonts -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Parisienne&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- ===================================== -->
+<!-- PANTALLA DE BIENVENIDA -->
+<!-- ===================================== -->
+
+<div
+    class="welcome-screen"
+    id="welcomeScreen"
+>
+
+    <div class="welcome-content">
+
+        <p class="welcome-small">
+            MIS XV AÑOS
+        </p>
+
+        <h1 class="welcome-name">
+            Hannia Danae
+        </h1>
+
+        <div class="welcome-divider"></div>
+
+        <p class="welcome-date">
+            16 · 01 · 2027
+        </p>
+
+        <button
+            class="open-invitation-button"
+            id="openInvitationButton"
+            type="button"
+        >
+            ABRIR INVITACIÓN ♡
+        </button>
+
+        <p class="welcome-note">
+            Toca para comenzar
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- ===================================== -->
+<!-- ACCESO POR FOLIO -->
+<!-- ===================================== -->
+
+<div
+    class="folio-screen"
+    id="folioScreen"
+>
+
+    <div class="folio-access-card">
+
+        <p class="folio-access-small">
+            INVITACIÓN PERSONALIZADA
+        </p>
+
+        <h2 class="folio-access-title">
+            Antes de continuar...
+        </h2>
+
+        <p class="folio-access-description">
+            Ingresa el folio que recibiste junto con tu invitación.
+        </p>
+
+
+        <div class="folio-input-wrapper">
+
+            <span class="folio-prefix">
+                HD
+            </span>
+
+            <input
+                type="text"
+                id="folioInput"
+                class="folio-input"
+                autocomplete="off"
+                maxlength="8"
+                placeholder="002"
+                aria-label="Folio de invitación"
+            >
+
+        </div>
+
+
+        <button
+            class="folio-submit-button"
+            id="folioSubmitButton"
+            type="button"
+        >
+            CONTINUAR
+        </button>
+
+
+        <p
+            class="folio-error"
+            id="folioError"
+        ></p>
+
+
+        <p class="folio-help">
+            Puedes escribir, por ejemplo:
+            2, 002 o HD002.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- ===================================== -->
+<!-- CONTENIDO -->
+<!-- ===================================== -->
+
+<main
+    id="invitationContent"
+    class="invitation-content"
+>
+
+
+<!-- ===================================== -->
+<!-- PORTADA -->
+<!-- ===================================== -->
+
+<section class="hero">
+
+    <div class="hero-card reveal">
+
+        <p class="small-title">
+            MIS XV AÑOS
+        </p>
+
+        <h1 class="name">
+            Hannia Danae
+        </h1>
+
+        <div class="roman-number">
+            XV
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="hero-date">
+            16 · ENERO · 2027
+        </p>
+
+        <p class="hero-hour">
+            20:00 hrs
+        </p>
+
+
+        <!-- MÚSICA -->
+
+        <div class="music-player">
+
+            <p class="song-name">
+                Sweet Nothing
+            </p>
+
+            <p class="song-artist">
+                Taylor Swift
+            </p>
+
+            <p class="music-instruction">
+                Presiona play para acompañar la invitación con música
+            </p>
+
+            <button
+                id="playButton"
+                class="play-button"
+                type="button"
+                aria-label="Reproducir música"
+            >
+                ▶
+            </button>
+
+            <audio
+                id="backgroundMusic"
+                loop
+            >
+
+                <source
+                    src="audio/sweet-nothing.mp3"
+                    type="audio/mpeg"
+                >
+
+            </audio>
+
+        </div>
+
+
+        <p class="scroll-text">
+            Desliza para descubrir la invitación
+        </p>
+
+        <div class="scroll-arrow">
+            ↓
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- FRASE -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <h2>
+        Una historia que comenzó hace 15 años...
+    </h2>
+
+    <div class="divider"></div>
+
+    <p class="main-message">
+
+        Entre recuerdos de mi infancia y sueños por cumplir,
+        hoy comienza una de las etapas más hermosas de mi vida.
+
+        <br><br>
+
+        Cada experiencia, cada sonrisa y cada persona que ha
+        formado parte de mi historia me han ayudado a llegar
+        hasta este momento tan especial.
+
+        <br><br>
+
+        Por ello, deseo que me acompañes a celebrar mis XV años
+        y a compartir la alegría de una noche llena de emociones,
+        amor y momentos inolvidables que guardaré para siempre
+        en mi corazón.
+
+    </p>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- FOTOS -->
+<!-- ===================================== -->
+
+<section class="photos-section reveal">
+
+    <h2>
+        Recuerdos de mi infancia
+    </h2>
+
+    <p class="subtitle">
+        Algunos momentos que forman parte de mi historia
+    </p>
+
+
+    <div
+        class="photo-carousel"
+        id="photoCarousel"
+    >
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia1.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia2.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia3.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia4.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+         <div class="polaroid">
+
+            <img
+                src="images/hannia5.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia6.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia7.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia8.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia9.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia10.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia11.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+        <div class="polaroid">
+
+            <img
+                src="images/hannia12.png"
+                alt="Hannia de pequeña"
+            >
+
+        </div>
+
+    </div>
+
+
+    <div class="carousel-dots">
+
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- FECHA -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <h2>
+        El gran día
+    </h2>
+
+
+    <div class="date-card">
+
+        <p class="month">
+            Enero
+        </p>
+
+
+        <div class="date-layout">
+
+            <div class="date-side">
+                SÁBADO
+            </div>
+
+            <div class="day-number">
+                16
+            </div>
+
+            <div class="date-side">
+                2027
+            </div>
+
+        </div>
+
+
+        <p class="event-hour">
+            20:00 hrs
+        </p>
+
+    </div>
+
+
+    <!-- CONTADOR -->
+
+    <h3 class="countdown-title">
+        Faltan
+    </h3>
+
+
+    <div
+        class="countdown"
+        id="countdown"
+    >
+
+        <div class="count-box">
+
+            <span
+                class="count-number"
+                id="days"
+            >
+                0
+            </span>
+
+            <span class="count-label">
+                Días
+            </span>
+
+        </div>
+
+
+        <div class="count-box">
+
+            <span
+                class="count-number"
+                id="hours"
+            >
+                00
+            </span>
+
+            <span class="count-label">
+                Horas
+            </span>
+
+        </div>
+
+
+        <div class="count-box">
+
+            <span
+                class="count-number"
+                id="minutes"
+            >
+                00
+            </span>
+
+            <span class="count-label">
+                Minutos
+            </span>
+
+        </div>
+
+
+        <div class="count-box">
+
+            <span
+                class="count-number"
+                id="seconds"
+            >
+                00
+            </span>
+
+            <span class="count-label">
+                Segundos
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- CALENDARIO -->
+
+    <div class="calendar-container">
+
+        <p class="calendar-text">
+            Guarda esta fecha para que no se te olvide ♡
+        </p>
+
+        <a
+            class="button"
+            id="calendarButton"
+            href="#"
+            target="_blank"
+            rel="noopener"
+        >
+            AGREGAR A MI CALENDARIO
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- INVITACIÓN PERSONALIZADA -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <div class="family-card">
+
+        <p class="family-intro">
+            Esta invitación ha sido preparada especialmente para
+        </p>
+
+
+        <h2
+            class="family-name"
+            id="guestName"
+        >
+            Invitado
+        </h2>
+
+
+        <div class="divider"></div>
+
+
+        <div class="passes-container">
+
+            <span
+                class="passes-number"
+                id="passesNumber"
+            >
+                —
+            </span>
+
+            <span
+                class="passes-text"
+                id="passesText"
+            >
+                lugar reservado
+            </span>
+
+        </div>
+
+
+        <p class="family-message">
+            Será un gusto compartir esta noche tan especial contigo.
+        </p>
+
+
+        <div class="folio-box">
+
+            <span>
+                Folio
+            </span>
+
+            <strong id="familyFolio">
+                —
+            </strong>
+
+        </div>
+
+
+        <!-- SOLO FAMILIAS -->
+
+        <div
+            class="attendance-box"
+            id="attendanceBox"
+        >
+
+            <p class="attendance-title">
+                ¿Cuántas personas asistirán?
+            </p>
+
+            <p class="attendance-description">
+                Selecciona el número de personas que nos acompañarán.
+            </p>
+
+            <select
+                id="attendanceSelect"
+                class="attendance-select"
+            >
+
+                <option value="">
+                    Selecciona una opción
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <p class="passes-note">
+
+            Esta invitación es personal
+            y corresponde únicamente a los lugares asignados.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ===================================== -->
+<!-- MESA ASIGNADA -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <div class="table-card">
+
+        <p class="table-small-title">
+            TU LUGAR EN LA CELEBRACIÓN
+        </p>
+
+        <h2 class="table-title">
+            Mesa asignada
+        </h2>
+
+        <div class="divider"></div>
+
+        <div class="table-number-box">
+
+            <span class="table-number-label">
+                Mesa
+            </span>
+
+            <span
+                class="table-number"
+                id="assignedTableNumber"
+            >
+                —
+            </span>
+
+        </div>
+
+        <p
+            class="table-message"
+            id="assignedTableMessage"
+        >
+            Tu lugar ha sido reservado especialmente para ti.
+        </p>
+
+
+        <!-- MINI PLANO -->
+
+        <div
+            class="mini-floor-plan"
+            id="miniFloorPlan"
+        ></div>
+
+        <p class="table-map-note">
+            Busca el número resaltado en el plano de mesas.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ===================================== -->
+<!-- UBICACIÓN -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <div class="info-card">
+
+        <div class="info-icon">
+            📍
+        </div>
+
+        <h3>
+            Ubicación
+        </h3>
+
+        <p class="important-text">
+            JARDÍN PRINCESS
+        </p>
+
+        <p>
+            Av. Miguel Hidalgo 260
+            <br>
+            Jardines de Morelos
+            <br>
+            Ecatepec de Morelos
+            <br>
+            Estado de México
+        </p>
+
+        <a
+            class="button"
+            href="https://maps.app.goo.gl/7amWDJnBpvzRz323A?g_st=ipc"
+            target="_blank"
+            rel="noopener"
+        >
+            VER UBICACIÓN
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- DRESS CODE -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <div class="info-card">
+
+        <div class="info-icon">
+            ✨
+        </div>
+
+        <h3>
+            Dress Code
+        </h3>
+
+        <p class="important-text">
+            FORMAL DE NOCHE
+        </p>
+
+        <p>
+            Queremos que esta noche sea elegante y especial.
+        </p>
+
+        <p>
+            Por favor evita utilizar
+            <strong>colores pastel</strong>,
+            especialmente
+            <strong>rosa.</strong>
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- REGALOS -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <div class="info-card gifts-card">
+
+        <div class="info-icon">
+            🎁
+        </div>
+
+        <h3>
+            Regalos
+        </h3>
+
+        <p class="important-text">
+            Tu presencia es lo más importante
+        </p>
+
+        <p>
+            Si deseas tener un detalle conmigo,
+            puedes elegir la opción que prefieras.
+        </p>
+
+
+        <div class="gift-options">
+
+
+            <div class="gift-option">
+
+                <div class="gift-icon-circle">
+                    ✉
+                </div>
+
+                <div class="gift-option-content">
+
+                    <h4>
+                        Lluvia de sobres
+                    </h4>
+
+                    <p>
+                        Si deseas obsequiarme dinero,
+                        tendremos lluvia de sobres durante el evento.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="gift-option">
+
+                <div class="gift-icon-circle">
+                    🎁
+                </div>
+
+                <div class="gift-option-content">
+
+                    <h4>
+                        Lista de regalos
+                    </h4>
+
+                    <p>
+                        Si prefieres hacerme un regalo,
+                        puedes elegir algo de mi wishlist.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <a
+            class="button"
+            href="https://www.amazon.com.mx/hz/wishlist/ls/1BCQJ8D4XECDQ?ref_=wl_share"
+            target="_blank"
+            rel="noopener"
+        >
+            VER MI WISHLIST
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- CONFIRMACIÓN -->
+<!-- ===================================== -->
+
+<section class="section confirmation-section reveal">
+
+    <h2>
+        Confirmación de asistencia
+    </h2>
+
+    <div class="divider"></div>
+
+    <p class="confirmation-text">
+        Espero que seas parte de esta gran celebración.
+    </p>
+
+
+    <div class="rsvp-deadline">
+
+        <span class="rsvp-small">
+            Favor de confirmar antes del
+        </span>
+
+        <strong>
+            20 de diciembre de 2026
+        </strong>
+
+    </div>
+
+
+    <a
+        class="button whatsapp-button"
+        id="whatsappButton"
+        href="#"
+        target="_blank"
+        rel="noopener"
+    >
+        CONFIRMAR POR WHATSAPP
+    </a>
+
+
+    <p
+        id="confirmationWarning"
+        class="confirmation-warning"
+    ></p>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
+
+<footer>
+
+    <p class="footer-name">
+        Hannia Danae
+    </p>
+
+    <p>
+        16 de enero de 2027
+    </p>
+
+    <p class="footer-small">
+        Gracias por ser parte de este momento tan especial ♡
+    </p>
+
+</footer>
+
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
