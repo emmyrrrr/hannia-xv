@@ -22,8 +22,6 @@
         content="Invitación a los XV años de Hannia Danae"
     >
 
-    <!-- Google Fonts -->
-
     <link
         rel="preconnect"
         href="https://fonts.googleapis.com"
@@ -95,7 +93,7 @@
 
 
 <!-- ===================================== -->
-<!-- ACCESO POR FOLIO -->
+<!-- ACCESO POR FOLIO Y CONTRASEÑA -->
 <!-- ===================================== -->
 
 <div
@@ -114,9 +112,13 @@
         </h2>
 
         <p class="folio-access-description">
-            Ingresa el folio que recibiste junto con tu invitación.
+            Ingresa el folio y la contraseña que recibiste junto con tu invitación.
         </p>
 
+
+        <label class="access-label">
+            Folio
+        </label>
 
         <div class="folio-input-wrapper">
 
@@ -130,8 +132,26 @@
                 class="folio-input"
                 autocomplete="off"
                 maxlength="8"
-                placeholder="002"
+                placeholder="001"
                 aria-label="Folio de invitación"
+            >
+
+        </div>
+
+
+        <label class="access-label">
+            Contraseña
+        </label>
+
+        <div class="password-input-wrapper">
+
+            <input
+                type="text"
+                id="passwordInput"
+                class="password-input"
+                autocomplete="off"
+                placeholder="Nombre o familia"
+                aria-label="Contraseña de invitación"
             >
 
         </div>
@@ -142,7 +162,7 @@
             id="folioSubmitButton"
             type="button"
         >
-            CONTINUAR
+            ENTRAR A MI INVITACIÓN
         </button>
 
 
@@ -153,8 +173,7 @@
 
 
         <p class="folio-help">
-            Puedes escribir, por ejemplo:
-            2, 002 o HD002.
+            Ejemplo: HD001 + Gutiérrez Peñaloza
         </p>
 
     </div>
@@ -203,8 +222,6 @@
             20:00 hrs
         </p>
 
-
-        <!-- MÚSICA -->
 
         <div class="music-player">
 
@@ -328,73 +345,43 @@
         >
 
             <div class="polaroid">
-                <img
-                    src="images/hannia1.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia1.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia2.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia2.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia3.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia3.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia4.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia4.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia5.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia5.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia6.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia6.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia7.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia7.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia8.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia8.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia9.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia9.png" alt="Hannia de pequeña">
             </div>
 
             <div class="polaroid">
-                <img
-                    src="images/hannia10.png"
-                    alt="Hannia de pequeña"
-                >
+                <img src="images/hannia10.png" alt="Hannia de pequeña">
             </div>
 
         </div>
@@ -409,7 +396,6 @@
             ›
         </button>
 
-
     </div>
 
 
@@ -417,7 +403,6 @@
         class="carousel-dots"
         id="carouselDots"
     ></div>
-
 
 </section>
 
@@ -476,66 +461,23 @@
     >
 
         <div class="count-box">
-
-            <span
-                class="count-number"
-                id="days"
-            >
-                0
-            </span>
-
-            <span class="count-label">
-                Días
-            </span>
-
+            <span class="count-number" id="days">0</span>
+            <span class="count-label">Días</span>
         </div>
 
-
         <div class="count-box">
-
-            <span
-                class="count-number"
-                id="hours"
-            >
-                00
-            </span>
-
-            <span class="count-label">
-                Horas
-            </span>
-
+            <span class="count-number" id="hours">00</span>
+            <span class="count-label">Horas</span>
         </div>
 
-
         <div class="count-box">
-
-            <span
-                class="count-number"
-                id="minutes"
-            >
-                00
-            </span>
-
-            <span class="count-label">
-                Minutos
-            </span>
-
+            <span class="count-number" id="minutes">00</span>
+            <span class="count-label">Minutos</span>
         </div>
 
-
         <div class="count-box">
-
-            <span
-                class="count-number"
-                id="seconds"
-            >
-                00
-            </span>
-
-            <span class="count-label">
-                Segundos
-            </span>
-
+            <span class="count-number" id="seconds">00</span>
+            <span class="count-label">Segundos</span>
         </div>
 
     </div>
@@ -575,7 +517,6 @@
             Esta invitación ha sido preparada especialmente para
         </p>
 
-
         <h2
             class="family-name"
             id="guestName"
@@ -583,9 +524,7 @@
             Invitado
         </h2>
 
-
         <div class="divider"></div>
-
 
         <div class="passes-container">
 
@@ -665,7 +604,7 @@
 
 
 <!-- ===================================== -->
-<!-- MESA ASIGNADA -->
+<!-- MESA -->
 <!-- ===================================== -->
 
 <section class="section reveal">
@@ -820,7 +759,6 @@
 
         <div class="gift-options">
 
-
             <div class="gift-option">
 
                 <div class="gift-icon-circle">
@@ -931,10 +869,6 @@
 </section>
 
 
-
-<!-- ===================================== -->
-<!-- FOOTER -->
-<!-- ===================================== -->
 
 <footer>
 
