@@ -1,14 +1,13 @@
 /* ========================================== */
-/* INVITADOS */
+/* INVITACIONES */
 /* ========================================== */
 
 const invitados = {
 
-    /* MESA 1 */
-
     HD001: {
         tipo: "familia",
         nombre: "Gutiérrez Peñaloza",
+        password: "gutierrez peñaloza",
         pases: 4,
         mesa: 1
     },
@@ -16,6 +15,7 @@ const invitados = {
     HD002: {
         tipo: "familia",
         nombre: "Peñaloza Reséndiz",
+        password: "peñaloza resendiz",
         pases: 4,
         mesa: 1
     },
@@ -23,6 +23,7 @@ const invitados = {
     HD003: {
         tipo: "familia",
         nombre: "Peñaloza Vázquez",
+        password: "peñaloza vazquez",
         pases: 3,
         mesa: 1
     },
@@ -30,16 +31,15 @@ const invitados = {
     HD004: {
         tipo: "individual",
         nombre: "Ignacio Gonzalez",
+        password: "ignacio gonzalez",
         pases: 1,
         mesa: 1
     },
 
-
-    /* MESA 2 */
-
     HD005: {
         tipo: "individual",
         nombre: "Pablo Peñaloza",
+        password: "pablo peñaloza",
         pases: 1,
         mesa: 2
     },
@@ -47,6 +47,7 @@ const invitados = {
     HD006: {
         tipo: "individual",
         nombre: "Cristhian Peñaloza",
+        password: "cristhian peñaloza",
         pases: 1,
         mesa: 2
     },
@@ -54,6 +55,7 @@ const invitados = {
     HD007: {
         tipo: "familia",
         nombre: "Peñaloza",
+        password: "peñaloza",
         pases: 4,
         mesa: 2
     },
@@ -61,6 +63,7 @@ const invitados = {
     HD008: {
         tipo: "familia",
         nombre: "Uvalle Peñaloza",
+        password: "uvalle peñaloza",
         pases: 4,
         mesa: 2
     },
@@ -68,16 +71,15 @@ const invitados = {
     HD009: {
         tipo: "familia",
         nombre: "Peñaloza Gonzalez",
+        password: "peñaloza gonzalez",
         pases: 2,
         mesa: 2
     },
 
-
-    /* MESA 3 */
-
     HD010: {
         tipo: "individual",
         nombre: "Carmen Panales",
+        password: "carmen panales",
         pases: 1,
         mesa: 3
     },
@@ -85,6 +87,7 @@ const invitados = {
     HD011: {
         tipo: "familia",
         nombre: "Herrera Parada",
+        password: "herrera parada",
         pases: 2,
         mesa: 3
     },
@@ -92,6 +95,7 @@ const invitados = {
     HD012: {
         tipo: "familia",
         nombre: "Medina Herrera",
+        password: "medina herrera",
         pases: 3,
         mesa: 3
     },
@@ -99,6 +103,7 @@ const invitados = {
     HD013: {
         tipo: "familia",
         nombre: "Yamamoto Herrera",
+        password: "yamamoto herrera",
         pases: 4,
         mesa: 3
     },
@@ -106,16 +111,15 @@ const invitados = {
     HD014: {
         tipo: "familia",
         nombre: "Palacios Panales",
+        password: "palacios panales",
         pases: 2,
         mesa: 3
     },
 
-
-    /* MESA 4 */
-
     HD015: {
         tipo: "familia",
         nombre: "Fragoso Panales",
+        password: "fragoso panales",
         pases: 2,
         mesa: 4
     },
@@ -123,6 +127,7 @@ const invitados = {
     HD016: {
         tipo: "individual",
         nombre: "Juan Panales",
+        password: "juan panales",
         pases: 1,
         mesa: 4
     },
@@ -130,6 +135,7 @@ const invitados = {
     HD017: {
         tipo: "familia",
         nombre: "Panales Garcia",
+        password: "panales garcia",
         pases: 4,
         mesa: 4
     },
@@ -137,6 +143,7 @@ const invitados = {
     HD018: {
         tipo: "individual",
         nombre: "Claudia Panales",
+        password: "claudia panales",
         pases: 1,
         mesa: 4
     },
@@ -144,6 +151,7 @@ const invitados = {
     HD019: {
         tipo: "familia",
         nombre: "Panales",
+        password: "panales",
         pases: 2,
         mesa: 4
     },
@@ -151,6 +159,7 @@ const invitados = {
     HD020: {
         tipo: "individual",
         nombre: "Rosa Panales",
+        password: "rosa panales",
         pases: 1,
         mesa: 4
     },
@@ -158,16 +167,15 @@ const invitados = {
     HD021: {
         tipo: "familia",
         nombre: "Palacios Ramirez",
+        password: "palacios ramirez",
         pases: 2,
         mesa: 4
     },
 
-
-    /* MESA 5 */
-
     HD022: {
         tipo: "familia",
         nombre: "Paz Garcia",
+        password: "paz garcia",
         pases: 5,
         mesa: 5
     },
@@ -175,6 +183,7 @@ const invitados = {
     HD023: {
         tipo: "individual",
         nombre: "Gil",
+        password: "gil",
         pases: 1,
         mesa: 5
     },
@@ -182,6 +191,7 @@ const invitados = {
     HD024: {
         tipo: "individual",
         nombre: "Monserrat",
+        password: "monserrat",
         pases: 1,
         mesa: 5
     },
@@ -189,6 +199,7 @@ const invitados = {
     HD025: {
         tipo: "individual",
         nombre: "Manuel",
+        password: "manuel",
         pases: 1,
         mesa: 5
     },
@@ -196,6 +207,7 @@ const invitados = {
     HD026: {
         tipo: "individual",
         nombre: "Omar",
+        password: "omar",
         pases: 1,
         mesa: 5
     },
@@ -203,16 +215,15 @@ const invitados = {
     HD027: {
         tipo: "individual",
         nombre: "Josue",
+        password: "josue",
         pases: 1,
         mesa: 5
     },
 
-
-    /* MESA 6 */
-
     HD028: {
         tipo: "familia",
         nombre: "Uriza Tonal",
+        password: "uriza tonal",
         pases: 2,
         mesa: 6
     },
@@ -220,6 +231,7 @@ const invitados = {
     HD029: {
         tipo: "familia",
         nombre: "Ruiz Segoviano",
+        password: "ruiz segoviano",
         pases: 3,
         mesa: 6
     },
@@ -227,6 +239,7 @@ const invitados = {
     HD030: {
         tipo: "familia",
         nombre: "Garcia Pineda",
+        password: "garcia pineda",
         pases: 2,
         mesa: 6
     },
@@ -234,16 +247,15 @@ const invitados = {
     HD031: {
         tipo: "familia",
         nombre: "Jimenez Tellez",
+        password: "jimenez tellez",
         pases: 5,
         mesa: 6
     },
 
-
-    /* MESA 7 */
-
     HD032: {
         tipo: "familia",
         nombre: "Zeferino Prado",
+        password: "zeferino prado",
         pases: 4,
         mesa: 7
     },
@@ -251,6 +263,7 @@ const invitados = {
     HD033: {
         tipo: "familia",
         nombre: "Ibarez Salazar",
+        password: "ibarez salazar",
         pases: 2,
         mesa: 7
     },
@@ -258,6 +271,7 @@ const invitados = {
     HD034: {
         tipo: "individual",
         nombre: "Rocio Reyes",
+        password: "rocio reyes",
         pases: 1,
         mesa: 7
     },
@@ -265,6 +279,7 @@ const invitados = {
     HD035: {
         tipo: "individual",
         nombre: "Berenice Marquina",
+        password: "berenice marquina",
         pases: 1,
         mesa: 7
     },
@@ -272,6 +287,7 @@ const invitados = {
     HD036: {
         tipo: "individual",
         nombre: "Lizbeth Peña",
+        password: "lizbeth peña",
         pases: 1,
         mesa: 7
     },
@@ -279,6 +295,7 @@ const invitados = {
     HD037: {
         tipo: "individual",
         nombre: "Mayra Hurtado",
+        password: "mayra hurtado",
         pases: 1,
         mesa: 7
     },
@@ -286,19 +303,15 @@ const invitados = {
     HD038: {
         tipo: "individual",
         nombre: "Patricia Madrigal",
+        password: "patricia madrigal",
         pases: 1,
         mesa: 7
     },
 
-
-    /* MESA 8 VACÍA */
-
-
-    /* MESA 9 */
-
     HD039: {
         tipo: "individual",
         nombre: "Fernanda Uriza",
+        password: "fernanda uriza",
         pases: 1,
         mesa: 9
     },
@@ -306,6 +319,7 @@ const invitados = {
     HD040: {
         tipo: "individual",
         nombre: "Belen Madrigal",
+        password: "belen madrigal",
         pases: 1,
         mesa: 9
     },
@@ -313,6 +327,7 @@ const invitados = {
     HD041: {
         tipo: "individual",
         nombre: "Mago Chukavina",
+        password: "mago chukavina",
         pases: 1,
         mesa: 9
     },
@@ -320,6 +335,7 @@ const invitados = {
     HD042: {
         tipo: "individual",
         nombre: "Yamile Hurtado",
+        password: "yamile hurtado",
         pases: 1,
         mesa: 9
     },
@@ -327,6 +343,7 @@ const invitados = {
     HD043: {
         tipo: "individual",
         nombre: "Barbara Rodriguez",
+        password: "barbara rodriguez",
         pases: 1,
         mesa: 9
     },
@@ -334,6 +351,7 @@ const invitados = {
     HD044: {
         tipo: "individual",
         nombre: "Sofia Contreras",
+        password: "sofia contreras",
         pases: 1,
         mesa: 9
     },
@@ -341,6 +359,7 @@ const invitados = {
     HD045: {
         tipo: "individual",
         nombre: "Isabel Montes de Oca",
+        password: "isabel montes de oca",
         pases: 1,
         mesa: 9
     },
@@ -348,6 +367,7 @@ const invitados = {
     HD046: {
         tipo: "individual",
         nombre: "Ximena Alanis",
+        password: "ximena alanis",
         pases: 1,
         mesa: 9
     },
@@ -355,6 +375,7 @@ const invitados = {
     HD047: {
         tipo: "individual",
         nombre: "Valeria Islas",
+        password: "valeria islas",
         pases: 1,
         mesa: 9
     },
@@ -362,6 +383,7 @@ const invitados = {
     HD048: {
         tipo: "individual",
         nombre: "Yulisa Sepultura",
+        password: "yulisa sepultura",
         pases: 1,
         mesa: 9
     },
@@ -369,16 +391,15 @@ const invitados = {
     HD049: {
         tipo: "individual",
         nombre: "Marijo Garcia",
+        password: "marijo garcia",
         pases: 1,
         mesa: 9
     },
 
-
-    /* MESA 10 */
-
     HD050: {
         tipo: "individual",
         nombre: "Leonardo Lopez",
+        password: "leonardo lopez",
         pases: 1,
         mesa: 10
     },
@@ -386,6 +407,7 @@ const invitados = {
     HD051: {
         tipo: "individual",
         nombre: "Mafer Ruiz",
+        password: "mafer ruiz",
         pases: 1,
         mesa: 10
     },
@@ -393,6 +415,7 @@ const invitados = {
     HD052: {
         tipo: "individual",
         nombre: "Regina Davalos",
+        password: "regina davalos",
         pases: 1,
         mesa: 10
     },
@@ -400,6 +423,7 @@ const invitados = {
     HD053: {
         tipo: "individual",
         nombre: "Andrea Geraldine",
+        password: "andrea geraldine",
         pases: 1,
         mesa: 10
     },
@@ -407,6 +431,7 @@ const invitados = {
     HD054: {
         tipo: "individual",
         nombre: "Alan Ramirez",
+        password: "alan ramirez",
         pases: 1,
         mesa: 10
     },
@@ -414,6 +439,7 @@ const invitados = {
     HD055: {
         tipo: "individual",
         nombre: "Mich Valdez",
+        password: "mich valdez",
         pases: 1,
         mesa: 10
     },
@@ -421,6 +447,7 @@ const invitados = {
     HD056: {
         tipo: "individual",
         nombre: "Matias Magos",
+        password: "matias magos",
         pases: 1,
         mesa: 10
     },
@@ -428,6 +455,7 @@ const invitados = {
     HD057: {
         tipo: "individual",
         nombre: "Tadeo Lopez",
+        password: "tadeo lopez",
         pases: 1,
         mesa: 10
     },
@@ -435,6 +463,7 @@ const invitados = {
     HD058: {
         tipo: "individual",
         nombre: "Evan Delgado",
+        password: "evan delgado",
         pases: 1,
         mesa: 10
     }
@@ -470,6 +499,9 @@ const openInvitationButton =
 
 const folioInput =
     document.getElementById("folioInput");
+
+const passwordInput =
+    document.getElementById("passwordInput");
 
 const folioSubmitButton =
     document.getElementById("folioSubmitButton");
@@ -609,14 +641,52 @@ function normalizeFolio(value) {
 
 
 /* ========================================== */
-/* VALIDAR FOLIO */
+/* NORMALIZAR CONTRASEÑA */
 /* ========================================== */
 
-function validateFolio() {
+function normalizePassword(value) {
+
+    if (!value) {
+        return "";
+    }
+
+    return value
+
+        .trim()
+
+        .toLowerCase()
+
+        .normalize("NFD")
+
+        .replace(
+            /[\u0300-\u036f]/g,
+            ""
+        )
+
+        .replace(
+            /\s+/g,
+            " "
+        );
+
+}
+
+
+
+/* ========================================== */
+/* VALIDAR ACCESO */
+/* ========================================== */
+
+function validateAccess() {
 
     const folio =
         normalizeFolio(
             folioInput.value
+        );
+
+
+    const password =
+        normalizePassword(
+            passwordInput.value
         );
 
 
@@ -626,6 +696,7 @@ function validateFolio() {
             "Ingresa el folio de tu invitación.";
 
         return;
+
     }
 
 
@@ -635,6 +706,36 @@ function validateFolio() {
             "No encontramos ese folio. Verifica los datos de tu invitación.";
 
         return;
+
+    }
+
+
+    if (!password) {
+
+        folioError.textContent =
+            "Ingresa la contraseña de tu invitación.";
+
+        return;
+
+    }
+
+
+    const expectedPassword =
+        normalizePassword(
+            invitados[folio].password
+        );
+
+
+    if (
+        password !==
+        expectedPassword
+    ) {
+
+        folioError.textContent =
+            "La contraseña no coincide con esta invitación.";
+
+        return;
+
     }
 
 
@@ -658,7 +759,7 @@ function validateFolio() {
 
 folioSubmitButton.addEventListener(
     "click",
-    validateFolio
+    validateAccess
 );
 
 
@@ -667,9 +768,28 @@ folioInput.addEventListener(
     "keydown",
     function (event) {
 
-        if (event.key === "Enter") {
+        if (
+            event.key === "Enter"
+        ) {
 
-            validateFolio();
+            passwordInput.focus();
+
+        }
+
+    }
+);
+
+
+
+passwordInput.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Enter"
+        ) {
+
+            validateAccess();
 
         }
 
@@ -690,12 +810,23 @@ folioInput.addEventListener(
 
 
 
+passwordInput.addEventListener(
+    "input",
+    function () {
+
+        folioError.textContent =
+            "";
+
+    }
+);
+
+
+
 /* ========================================== */
 /* CARGAR INVITACIÓN */
 /* ========================================== */
 
 function loadInvitation() {
-
 
     if (
         invitacionActual.tipo ===
@@ -989,7 +1120,9 @@ attendanceSelect.addEventListener(
             invitacionActual.tipo !==
             "familia"
         ) {
+
             return;
+
         }
 
 
