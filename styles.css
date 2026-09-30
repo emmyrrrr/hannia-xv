@@ -1,7 +1,3 @@
-/* ===================================== */
-/* VARIABLES */
-/* ===================================== */
-
 :root {
 
     --rose-gold: #b76e79;
@@ -20,10 +16,6 @@
 
 }
 
-
-/* ===================================== */
-/* RESET */
-/* ===================================== */
 
 * {
     box-sizing: border-box;
@@ -96,10 +88,6 @@ body::before {
 }
 
 
-/* ===================================== */
-/* CONTENIDO OCULTO */
-/* ===================================== */
-
 .invitation-content {
     visibility: hidden;
 }
@@ -111,7 +99,7 @@ body::before {
 
 
 /* ===================================== */
-/* PANTALLA INICIAL */
+/* PANTALLAS */
 /* ===================================== */
 
 .welcome-screen,
@@ -372,7 +360,7 @@ body::before {
 
 
 /* ===================================== */
-/* FOLIO */
+/* ACCESO */
 /* ===================================== */
 
 .folio-access-title {
@@ -393,10 +381,17 @@ body::before {
     color:
         var(--rose-gold-dark);
 
+    margin-bottom: 12px;
+
 }
 
 
 .folio-access-description {
+
+    max-width: 420px;
+
+    margin:
+        0 auto 25px;
 
     font-family:
         "Cormorant Garamond",
@@ -410,18 +405,46 @@ body::before {
 }
 
 
-.folio-input-wrapper {
+.access-label {
 
     width:
         min(
             100%,
-            280px
+            320px
+        );
+
+    display: block;
+
+    margin:
+        15px auto 7px;
+
+    text-align: left;
+
+    font-size: 0.68rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.15em;
+
+    color:
+        var(--rose-gold-dark);
+
+}
+
+
+.folio-input-wrapper,
+.password-input-wrapper {
+
+    width:
+        min(
+            100%,
+            320px
         );
 
     height: 58px;
 
     margin:
-        25px auto 18px;
+        0 auto 15px;
 
     display: flex;
 
@@ -467,7 +490,8 @@ body::before {
 }
 
 
-.folio-input {
+.folio-input,
+.password-input {
 
     width: 100%;
 
@@ -484,7 +508,25 @@ body::before {
         "Cormorant Garamond",
         serif;
 
-    font-size: 1.6rem;
+    font-size: 1.35rem;
+
+    color:
+        var(--brown);
+
+    background:
+        transparent;
+
+}
+
+
+.password-input {
+    text-align: center;
+}
+
+
+.folio-submit-button {
+
+    margin-top: 15px;
 
 }
 
@@ -492,6 +534,8 @@ body::before {
 .folio-error {
 
     min-height: 20px;
+
+    margin-top: 15px;
 
     color:
         #a44855;
@@ -618,10 +662,6 @@ body::before {
 
 }
 
-
-/* ===================================== */
-/* DIVISOR */
-/* ===================================== */
 
 .divider {
 
@@ -1360,7 +1400,7 @@ body::before {
 
 
 /* ===================================== */
-/* ASISTENCIA FAMILIAR */
+/* ASISTENCIA */
 /* ===================================== */
 
 .attendance-box {
@@ -1714,7 +1754,7 @@ footer {
 
 
 /* ===================================== */
-/* MESA ASIGNADA */
+/* MESA */
 /* ===================================== */
 
 .table-card {
@@ -1887,10 +1927,6 @@ footer {
 }
 
 
-/* ===================================== */
-/* MINI PLANO DE MESAS */
-/* ===================================== */
-
 .mini-floor-plan {
 
     width:
@@ -2026,6 +2062,15 @@ footer {
 
         padding:
             60px 18px;
+
+    }
+
+
+    .welcome-content,
+    .folio-access-card {
+
+        padding:
+            40px 20px;
 
     }
 
