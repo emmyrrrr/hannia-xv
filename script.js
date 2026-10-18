@@ -9,7 +9,7 @@ const invitados = {
         nombre: "Gutiérrez Peñaloza",
         password: "gutierrez peñaloza",
         pases: 4,
-        mesa: 1
+        mesa: 6
     },
 
     HD002: {
@@ -17,7 +17,7 @@ const invitados = {
         nombre: "Peñaloza Reséndiz",
         password: "peñaloza resendiz",
         pases: 4,
-        mesa: 1
+        mesa: 6
     },
 
     HD003: {
@@ -25,7 +25,7 @@ const invitados = {
         nombre: "Peñaloza Vázquez",
         password: "peñaloza vazquez",
         pases: 3,
-        mesa: 1
+        mesa: 6
     },
 
     HD004: {
@@ -33,7 +33,7 @@ const invitados = {
         nombre: "Ignacio Gonzalez",
         password: "ignacio gonzalez",
         pases: 1,
-        mesa: 1
+        mesa: 6
     },
 
     HD005: {
@@ -41,7 +41,7 @@ const invitados = {
         nombre: "Pablo Peñaloza",
         password: "pablo peñaloza",
         pases: 1,
-        mesa: 2
+        mesa: 7
     },
 
     HD006: {
@@ -49,7 +49,7 @@ const invitados = {
         nombre: "Cristhian Peñaloza",
         password: "cristhian peñaloza",
         pases: 1,
-        mesa: 2
+        mesa: 7
     },
 
     HD007: {
@@ -57,7 +57,7 @@ const invitados = {
         nombre: "Peñaloza",
         password: "peñaloza",
         pases: 4,
-        mesa: 2
+        mesa: 7
     },
 
     HD008: {
@@ -65,7 +65,7 @@ const invitados = {
         nombre: "Uvalle Peñaloza",
         password: "uvalle peñaloza",
         pases: 4,
-        mesa: 2
+        mesa: 7
     },
 
     HD009: {
@@ -73,7 +73,7 @@ const invitados = {
         nombre: "Peñaloza Gonzalez",
         password: "peñaloza gonzalez",
         pases: 2,
-        mesa: 2
+        mesa: 7
     },
 
     HD010: {
@@ -81,7 +81,7 @@ const invitados = {
         nombre: "Carmen Panales",
         password: "carmen panales",
         pases: 1,
-        mesa: 3
+        mesa: 1
     },
 
     HD011: {
@@ -89,7 +89,7 @@ const invitados = {
         nombre: "Herrera Parada",
         password: "herrera parada",
         pases: 2,
-        mesa: 3
+        mesa: 1
     },
 
     HD012: {
@@ -97,7 +97,7 @@ const invitados = {
         nombre: "Medina Herrera",
         password: "medina herrera",
         pases: 3,
-        mesa: 3
+        mesa: 1
     },
 
     HD013: {
@@ -105,7 +105,7 @@ const invitados = {
         nombre: "Yamamoto Herrera",
         password: "yamamoto herrera",
         pases: 4,
-        mesa: 3
+        mesa: 1
     },
 
     HD014: {
@@ -113,7 +113,7 @@ const invitados = {
         nombre: "Palacios Panales",
         password: "palacios panales",
         pases: 2,
-        mesa: 3
+        mesa: 1
     },
 
     HD015: {
@@ -121,7 +121,7 @@ const invitados = {
         nombre: "Fragoso Panales",
         password: "fragoso panales",
         pases: 2,
-        mesa: 4
+        mesa: 2
     },
 
     HD016: {
@@ -129,7 +129,7 @@ const invitados = {
         nombre: "Juan Panales",
         password: "juan panales",
         pases: 1,
-        mesa: 4
+        mesa: 2
     },
 
     HD017: {
@@ -137,7 +137,7 @@ const invitados = {
         nombre: "Panales Garcia",
         password: "panales garcia",
         pases: 4,
-        mesa: 4
+        mesa: 2
     },
 
     HD018: {
@@ -145,7 +145,7 @@ const invitados = {
         nombre: "Claudia Panales",
         password: "claudia panales",
         pases: 1,
-        mesa: 4
+        mesa: 2
     },
 
     HD019: {
@@ -153,7 +153,7 @@ const invitados = {
         nombre: "Panales",
         password: "panales",
         pases: 2,
-        mesa: 4
+        mesa: 2
     },
 
     HD020: {
@@ -161,7 +161,7 @@ const invitados = {
         nombre: "Rosa Panales",
         password: "rosa panales",
         pases: 1,
-        mesa: 4
+        mesa: 2
     },
 
     HD021: {
@@ -169,7 +169,7 @@ const invitados = {
         nombre: "Palacios Ramirez",
         password: "palacios ramirez",
         pases: 2,
-        mesa: 4
+        mesa: 2
     },
 
     HD022: {
@@ -177,7 +177,7 @@ const invitados = {
         nombre: "Paz Garcia",
         password: "paz garcia",
         pases: 5,
-        mesa: 5
+        mesa: 3
     },
 
     HD023: {
@@ -185,7 +185,7 @@ const invitados = {
         nombre: "Gil",
         password: "gil",
         pases: 1,
-        mesa: 5
+        mesa: 3
     },
 
     HD024: {
@@ -193,7 +193,7 @@ const invitados = {
         nombre: "Monserrat",
         password: "monserrat",
         pases: 1,
-        mesa: 5
+        mesa: 3
     },
 
     HD025: {
@@ -201,7 +201,7 @@ const invitados = {
         nombre: "Manuel",
         password: "manuel",
         pases: 1,
-        mesa: 5
+        mesa: 3
     },
 
     HD026: {
@@ -209,7 +209,7 @@ const invitados = {
         nombre: "Omar",
         password: "omar",
         pases: 1,
-        mesa: 5
+        mesa: 3
     },
 
     HD027: {
@@ -217,7 +217,7 @@ const invitados = {
         nombre: "Josue",
         password: "josue",
         pases: 1,
-        mesa: 5
+        mesa: 3
     },
 
     HD028: {
@@ -225,7 +225,7 @@ const invitados = {
         nombre: "Uriza Tonal",
         password: "uriza tonal",
         pases: 2,
-        mesa: 6
+        mesa: 8
     },
 
     HD029: {
@@ -233,7 +233,7 @@ const invitados = {
         nombre: "Ruiz Segoviano",
         password: "ruiz segoviano",
         pases: 3,
-        mesa: 6
+        mesa: 8
     },
 
     HD030: {
@@ -241,7 +241,7 @@ const invitados = {
         nombre: "Garcia Pineda",
         password: "garcia pineda",
         pases: 2,
-        mesa: 6
+        mesa: 8
     },
 
     HD031: {
@@ -249,7 +249,7 @@ const invitados = {
         nombre: "Jimenez Tellez",
         password: "jimenez tellez",
         pases: 5,
-        mesa: 6
+        mesa: 8
     },
 
     HD032: {
@@ -257,7 +257,7 @@ const invitados = {
         nombre: "Zeferino Prado",
         password: "zeferino prado",
         pases: 4,
-        mesa: 7
+        mesa: 5
     },
 
     HD033: {
@@ -265,7 +265,7 @@ const invitados = {
         nombre: "Ibarez Salazar",
         password: "ibarez salazar",
         pases: 2,
-        mesa: 7
+        mesa: 5
     },
 
     HD034: {
@@ -273,7 +273,7 @@ const invitados = {
         nombre: "Rocio Reyes",
         password: "rocio reyes",
         pases: 1,
-        mesa: 7
+        mesa: 5
     },
 
     HD035: {
@@ -281,7 +281,7 @@ const invitados = {
         nombre: "Berenice Marquina",
         password: "berenice marquina",
         pases: 1,
-        mesa: 7
+        mesa: 5
     },
 
     HD036: {
@@ -289,7 +289,7 @@ const invitados = {
         nombre: "Lizbeth Peña",
         password: "lizbeth peña",
         pases: 1,
-        mesa: 7
+        mesa: 5
     },
 
     HD037: {
@@ -297,7 +297,7 @@ const invitados = {
         nombre: "Mayra Hurtado",
         password: "mayra hurtado",
         pases: 1,
-        mesa: 7
+        mesa: 5
     },
 
     HD038: {
@@ -305,7 +305,7 @@ const invitados = {
         nombre: "Patricia Madrigal",
         password: "patricia madrigal",
         pases: 1,
-        mesa: 7
+        mesa: 5
     },
 
     HD039: {
