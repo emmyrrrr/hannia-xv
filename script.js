@@ -8,464 +8,406 @@ const invitados = {
         tipo: "familia",
         nombre: "Gutiérrez Peñaloza",
         password: "gutierrez peñaloza",
-        pases: 4,
-        mesa: 6
+        pases: 4
     },
 
     HD002: {
         tipo: "familia",
         nombre: "Peñaloza Reséndiz",
         password: "peñaloza resendiz",
-        pases: 4,
-        mesa: 6
+        pases: 4
     },
 
     HD003: {
         tipo: "familia",
         nombre: "Peñaloza Vázquez",
         password: "peñaloza vazquez",
-        pases: 3,
-        mesa: 6
+        pases: 3
     },
 
     HD004: {
         tipo: "individual",
         nombre: "Ignacio Gonzalez",
         password: "ignacio gonzalez",
-        pases: 1,
-        mesa: 6
+        pases: 1
     },
 
     HD005: {
         tipo: "individual",
         nombre: "Pablo Peñaloza",
         password: "pablo peñaloza",
-        pases: 1,
-        mesa: 7
+        pases: 1
     },
 
     HD006: {
         tipo: "individual",
         nombre: "Cristhian Peñaloza",
         password: "cristhian peñaloza",
-        pases: 1,
-        mesa: 7
+        pases: 1
     },
 
     HD007: {
         tipo: "familia",
         nombre: "Peñaloza",
         password: "peñaloza",
-        pases: 4,
-        mesa: 7
+        pases: 4
     },
 
     HD008: {
         tipo: "familia",
         nombre: "Uvalle Peñaloza",
         password: "uvalle peñaloza",
-        pases: 4,
-        mesa: 7
+        pases: 4
     },
 
     HD009: {
         tipo: "familia",
         nombre: "Peñaloza Gonzalez",
         password: "peñaloza gonzalez",
-        pases: 2,
-        mesa: 7
+        pases: 2
     },
 
     HD010: {
         tipo: "individual",
         nombre: "Carmen Panales",
         password: "carmen panales",
-        pases: 1,
-        mesa: 1
+        pases: 1
     },
 
     HD011: {
         tipo: "familia",
         nombre: "Herrera Parada",
         password: "herrera parada",
-        pases: 2,
-        mesa: 1
+        pases: 2
     },
 
     HD012: {
         tipo: "familia",
         nombre: "Medina Herrera",
         password: "medina herrera",
-        pases: 3,
-        mesa: 1
+        pases: 3
     },
 
     HD013: {
         tipo: "familia",
         nombre: "Yamamoto Herrera",
         password: "yamamoto herrera",
-        pases: 4,
-        mesa: 1
+        pases: 4
     },
 
     HD014: {
         tipo: "familia",
         nombre: "Palacios Panales",
         password: "palacios panales",
-        pases: 2,
-        mesa: 1
+        pases: 2
     },
 
     HD015: {
         tipo: "familia",
         nombre: "Fragoso Panales",
         password: "fragoso panales",
-        pases: 2,
-        mesa: 2
+        pases: 2
     },
 
     HD016: {
         tipo: "individual",
         nombre: "Juan Panales",
         password: "juan panales",
-        pases: 1,
-        mesa: 2
+        pases: 1
     },
 
     HD017: {
         tipo: "familia",
         nombre: "Panales Garcia",
         password: "panales garcia",
-        pases: 4,
-        mesa: 2
+        pases: 4
     },
 
     HD018: {
         tipo: "individual",
         nombre: "Claudia Panales",
         password: "claudia panales",
-        pases: 1,
-        mesa: 2
+        pases: 1
     },
 
     HD019: {
         tipo: "familia",
         nombre: "Panales",
         password: "panales",
-        pases: 2,
-        mesa: 2
+        pases: 2
     },
 
     HD020: {
         tipo: "individual",
         nombre: "Rosa Panales",
         password: "rosa panales",
-        pases: 1,
-        mesa: 2
+        pases: 1
     },
 
     HD021: {
         tipo: "familia",
         nombre: "Palacios Ramirez",
         password: "palacios ramirez",
-        pases: 2,
-        mesa: 2
+        pases: 2
     },
 
     HD022: {
         tipo: "familia",
         nombre: "Paz Garcia",
         password: "paz garcia",
-        pases: 5,
-        mesa: 3
+        pases: 5
     },
 
     HD023: {
         tipo: "individual",
         nombre: "Gil",
         password: "gil",
-        pases: 1,
-        mesa: 3
+        pases: 1
     },
 
     HD024: {
         tipo: "individual",
         nombre: "Monserrat",
         password: "monserrat",
-        pases: 1,
-        mesa: 3
+        pases: 1
     },
 
     HD025: {
         tipo: "individual",
         nombre: "Manuel",
         password: "manuel",
-        pases: 1,
-        mesa: 3
+        pases: 1
     },
 
     HD026: {
         tipo: "individual",
         nombre: "Omar",
         password: "omar",
-        pases: 1,
-        mesa: 3
+        pases: 1
     },
 
     HD027: {
         tipo: "individual",
         nombre: "Josue",
         password: "josue",
-        pases: 1,
-        mesa: 3
+        pases: 1
     },
 
     HD028: {
         tipo: "familia",
         nombre: "Uriza Tonal",
         password: "uriza tonal",
-        pases: 2,
-        mesa: 8
+        pases: 2
     },
 
     HD029: {
         tipo: "familia",
         nombre: "Ruiz Segoviano",
         password: "ruiz segoviano",
-        pases: 3,
-        mesa: 8
+        pases: 3
     },
 
     HD030: {
         tipo: "familia",
         nombre: "Garcia Pineda",
         password: "garcia pineda",
-        pases: 2,
-        mesa: 8
+        pases: 2
     },
 
     HD031: {
         tipo: "familia",
         nombre: "Jimenez Tellez",
         password: "jimenez tellez",
-        pases: 5,
-        mesa: 8
+        pases: 5
     },
 
     HD032: {
         tipo: "familia",
         nombre: "Zeferino Prado",
         password: "zeferino prado",
-        pases: 4,
-        mesa: 5
+        pases: 4
     },
 
     HD033: {
         tipo: "familia",
         nombre: "Ibarez Salazar",
         password: "ibarez salazar",
-        pases: 2,
-        mesa: 5
+        pases: 2
     },
 
     HD034: {
         tipo: "individual",
         nombre: "Rocio Reyes",
         password: "rocio reyes",
-        pases: 1,
-        mesa: 5
+        pases: 1
     },
 
     HD035: {
         tipo: "individual",
         nombre: "Berenice Marquina",
         password: "berenice marquina",
-        pases: 1,
-        mesa: 5
+        pases: 1
     },
 
     HD036: {
         tipo: "individual",
         nombre: "Lizbeth Peña",
         password: "lizbeth peña",
-        pases: 1,
-        mesa: 5
+        pases: 1
     },
 
     HD037: {
         tipo: "individual",
         nombre: "Mayra Hurtado",
         password: "mayra hurtado",
-        pases: 1,
-        mesa: 5
+        pases: 1
     },
 
     HD038: {
         tipo: "individual",
         nombre: "Patricia Madrigal",
         password: "patricia madrigal",
-        pases: 1,
-        mesa: 5
+        pases: 1
     },
 
     HD039: {
         tipo: "individual",
         nombre: "Fernanda Uriza",
         password: "fernanda uriza",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD040: {
         tipo: "individual",
         nombre: "Belen Madrigal",
         password: "belen madrigal",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD041: {
         tipo: "individual",
         nombre: "Mago Chukavina",
         password: "mago chukavina",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD042: {
         tipo: "individual",
         nombre: "Yamile Hurtado",
         password: "yamile hurtado",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD043: {
         tipo: "individual",
         nombre: "Barbara Rodriguez",
         password: "barbara rodriguez",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD044: {
         tipo: "individual",
         nombre: "Sofia Contreras",
         password: "sofia contreras",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD045: {
         tipo: "individual",
         nombre: "Isabel Montes de Oca",
         password: "isabel montes de oca",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD046: {
         tipo: "individual",
         nombre: "Ximena Alanis",
         password: "ximena alanis",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD047: {
         tipo: "individual",
         nombre: "Valeria Islas",
         password: "valeria islas",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD048: {
         tipo: "individual",
         nombre: "Yulisa Sepultura",
         password: "yulisa sepultura",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD049: {
         tipo: "individual",
         nombre: "Marijo Garcia",
         password: "marijo garcia",
-        pases: 1,
-        mesa: 9
+        pases: 1
     },
 
     HD050: {
         tipo: "individual",
         nombre: "Leonardo Lopez",
         password: "leonardo lopez",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD051: {
         tipo: "individual",
         nombre: "Mafer Ruiz",
         password: "mafer ruiz",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD052: {
         tipo: "individual",
         nombre: "Regina Davalos",
         password: "regina davalos",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD053: {
         tipo: "individual",
         nombre: "Andrea Geraldine",
         password: "andrea geraldine",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD054: {
         tipo: "individual",
         nombre: "Alan Ramirez",
         password: "alan ramirez",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD055: {
         tipo: "individual",
         nombre: "Mich Valdez",
         password: "mich valdez",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD056: {
         tipo: "individual",
         nombre: "Matias Magos",
         password: "matias magos",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD057: {
         tipo: "individual",
         nombre: "Tadeo Lopez",
         password: "tadeo lopez",
-        pases: 1,
-        mesa: 10
+        pases: 1
     },
 
     HD058: {
         tipo: "individual",
         nombre: "Evan Delgado",
         password: "evan delgado",
-        pases: 1,
-        mesa: 10
+        pases: 1
     }
 
 };
@@ -538,15 +480,6 @@ const music =
 
 const playButton =
     document.getElementById("playButton");
-
-const assignedTableNumber =
-    document.getElementById("assignedTableNumber");
-
-const assignedTableMessage =
-    document.getElementById("assignedTableMessage");
-
-const miniFloorPlan =
-    document.getElementById("miniFloorPlan");
 
 
 
@@ -956,9 +889,6 @@ function loadInvitation() {
         folioActual;
 
 
-    renderAssignedTable();
-
-
     folioScreen
         .classList
         .remove(
@@ -993,92 +923,6 @@ function loadInvitation() {
 
 
 /* ========================================== */
-/* MESA */
-/* ========================================== */
-
-function renderAssignedTable() {
-
-    const mesa =
-        invitacionActual.mesa;
-
-
-    assignedTableNumber.textContent =
-        mesa;
-
-
-    if (
-        invitacionActual.tipo ===
-        "familia"
-    ) {
-
-        assignedTableMessage.textContent =
-            `La Familia ${invitacionActual.nombre} ha sido asignada a la Mesa ${mesa}.`;
-
-    }
-
-    else {
-
-        assignedTableMessage.textContent =
-            `${invitacionActual.nombre}, tu lugar ha sido asignado a la Mesa ${mesa}.`;
-
-    }
-
-
-    miniFloorPlan.innerHTML =
-        "";
-
-
-    for (
-        let i = 1;
-        i <= 10;
-        i++
-    ) {
-
-        const table =
-            document.createElement(
-                "div"
-            );
-
-
-        table.className =
-            "floor-table";
-
-
-        if (
-            i === mesa
-        ) {
-
-            table.classList.add(
-                "active"
-            );
-
-        }
-
-
-        table.innerHTML = `
-
-            <span class="floor-table-label">
-                Mesa
-            </span>
-
-            <span class="floor-table-number">
-                ${i}
-            </span>
-
-        `;
-
-
-        miniFloorPlan.appendChild(
-            table
-        );
-
-    }
-
-}
-
-
-
-/* ========================================== */
 /* WHATSAPP INDIVIDUAL */
 /* ========================================== */
 
@@ -1091,7 +935,6 @@ function createIndividualWhatsapp() {
 Invitado: ${invitacionActual.nombre}
 Folio: ${folioActual}
 Pases asignados: 1
-Mesa asignada: ${invitacionActual.mesa}
 Asistiré: Sí.`;
 
 
@@ -1164,7 +1007,6 @@ attendanceSelect.addEventListener(
 Familia: ${invitacionActual.nombre}
 Folio: ${folioActual}
 Pases asignados: ${invitacionActual.pases}
-Mesa asignada: ${invitacionActual.mesa}
 Asistiremos: ${textoPersonas}.`;
 
 
@@ -1183,6 +1025,10 @@ Asistiremos: ${textoPersonas}.`;
 
         whatsappButton.style.pointerEvents =
             "auto";
+
+
+        whatsappButton.textContent =
+            "CONFIRMAR POR WHATSAPP";
 
 
         confirmationWarning.textContent =
