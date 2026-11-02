@@ -55,8 +55,8 @@ const invitados = {
 
     HD007: {
         tipo: "familia",
-        nombre: "Peñaloza",
-        password: "peñaloza",
+        nombre: "Peñaloza Castellanos",
+        password: "peñaloza castellanos",
         pases: 4
     },
 
