@@ -106,14 +106,14 @@ const invitados = {
         tipo: "familia",
         nombre: "Palacios Panales",
         password: "palacios panales",
-        pases: 2
+        pases: 3
     },
 
     HD015: {
         tipo: "familia",
         nombre: "Fragoso Panales",
         password: "fragoso panales",
-        pases: 2
+        pases: 3
     },
 
     HD016: {
