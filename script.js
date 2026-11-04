@@ -104,8 +104,8 @@ const invitados = {
 
     HD014: {
         tipo: "familia",
-        nombre: "Palacios Panales",
-        password: "palacios panales",
+        nombre: "Castañeda Palacios",
+        password: "castañeda palacios",
         pases: 3
     },
 
@@ -153,8 +153,8 @@ const invitados = {
 
     HD021: {
         tipo: "familia",
-        nombre: "Ana Palacios",
-        password: "ana palacios",
+        nombre: "Palacios Panales",
+        password: "palacios panales",
         pases: 2
     },
 
