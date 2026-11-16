@@ -2,7 +2,6 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
 
     <meta
@@ -42,7 +41,6 @@
         rel="stylesheet"
         href="styles.css"
     >
-
 </head>
 
 
@@ -57,7 +55,6 @@
     class="welcome-screen"
     id="welcomeScreen"
 >
-
     <div class="welcome-content">
 
         <p class="welcome-small">
@@ -87,7 +84,6 @@
         </p>
 
     </div>
-
 </div>
 
 
@@ -100,7 +96,6 @@
     class="folio-screen"
     id="folioScreen"
 >
-
     <div class="folio-access-card">
 
         <p class="folio-access-small">
@@ -171,10 +166,7 @@
             id="folioError"
         ></p>
 
-
-
     </div>
-
 </div>
 
 
@@ -216,7 +208,7 @@
         </p>
 
         <p class="hero-hour">
-            19:30 hrs
+            MISA 18:00 HRS · RECEPCIÓN 19:30 HRS
         </p>
 
 
@@ -247,12 +239,10 @@
                 id="backgroundMusic"
                 loop
             >
-
                 <source
                     src="audio/sweet-nothing.mp3"
                     type="audio/mpeg"
                 >
-
             </audio>
 
         </div>
@@ -439,9 +429,21 @@
         </div>
 
 
-        <p class="event-hour">
-            19:30 hrs
-        </p>
+        <div class="event-times">
+
+            <div class="event-time-item">
+                <span>MISA</span>
+                <strong>18:00 hrs</strong>
+            </div>
+
+            <div class="event-time-divider"></div>
+
+            <div class="event-time-item">
+                <span>RECEPCIÓN</span>
+                <strong>19:30 hrs</strong>
+            </div>
+
+        </div>
 
     </div>
 
@@ -576,11 +578,9 @@
                 id="attendanceSelect"
                 class="attendance-select"
             >
-
                 <option value="">
                     Selecciona una opción
                 </option>
-
             </select>
 
         </div>
@@ -598,7 +598,7 @@
 
 
 <!-- ===================================== -->
-<!-- UBICACIÓN -->
+<!-- CEREMONIA RELIGIOSA -->
 <!-- ===================================== -->
 
 <section class="section reveal">
@@ -607,11 +607,63 @@
 
         <div class="elegant-card-topline"></div>
 
+        <p class="event-label">
+            PRIMER MOMENTO
+        </p>
+
         <h3 class="elegant-title">
-            Ubicación
+            Ceremonia Religiosa
         </h3>
 
         <div class="elegant-divider"></div>
+
+        <p class="elegant-time">
+            18:00 HRS
+        </p>
+
+        <p class="event-description">
+            Acompáñanos a compartir este momento tan especial
+            antes de comenzar la celebración.
+        </p>
+
+        <a
+            class="elegant-button"
+            href="https://maps.app.goo.gl/oFLA7R2zKvXC3AWs9"
+            target="_blank"
+            rel="noopener"
+        >
+            VER UBICACIÓN DE LA MISA
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- RECEPCIÓN -->
+<!-- ===================================== -->
+
+<section class="section reveal">
+
+    <div class="elegant-card">
+
+        <div class="elegant-card-topline"></div>
+
+        <p class="event-label">
+            DESPUÉS DE LA CEREMONIA
+        </p>
+
+        <h3 class="elegant-title">
+            Recepción
+        </h3>
+
+        <div class="elegant-divider"></div>
+
+        <p class="elegant-time">
+            19:30 HRS
+        </p>
 
         <p class="elegant-kicker">
             JARDÍN PRINCESS
@@ -633,7 +685,7 @@
             target="_blank"
             rel="noopener"
         >
-            VER UBICACIÓN
+            VER UBICACIÓN DE LA RECEPCIÓN
         </a>
 
     </div>
@@ -648,7 +700,7 @@
 
 <section class="section reveal">
 
-    <div class="elegant-card">
+    <div class="elegant-card dress-card">
 
         <div class="elegant-card-topline"></div>
 
@@ -658,19 +710,14 @@
 
         <div class="elegant-divider"></div>
 
-        <p class="elegant-kicker">
-            FORMAL DE NOCHE
-        </p>
-
         <p class="dress-description">
-            Queremos que esta noche sea elegante y especial.
+            Para acompañar la temática de la celebración,
+            te pedimos evitar
+            <strong>cualquier tono de rosa</strong>.
         </p>
 
-        <p class="dress-note">
-            Favor de evitar
-            <strong>colores pastel</strong>,
-            especialmente el
-            <strong>rosa</strong>.
+        <p class="dress-reserved">
+            El color rosa está reservado para la festejada.
         </p>
 
     </div>
@@ -765,11 +812,8 @@
                         ></rect>
 
                         <path d="M3 9h18"></path>
-
                         <path d="M12 9v11"></path>
-
                         <path d="M12 9H8.5a2.5 2.5 0 1 1 2.5-2.5V9"></path>
-
                         <path d="M12 9h3.5A2.5 2.5 0 1 0 13 6.5V9"></path>
 
                     </svg>
