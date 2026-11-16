@@ -346,8 +346,7 @@ body::before {
 }
 
 
-.welcome-note,
-.folio-help {
+.welcome-note {
 
     margin-top: 18px;
 
@@ -651,9 +650,11 @@ body::before {
 
 .hero-hour {
 
-    font-size: 0.85rem;
+    font-size: 0.78rem;
 
-    letter-spacing: 0.2em;
+    line-height: 1.7;
+
+    letter-spacing: 0.13em;
 
     color:
         var(--text-soft);
@@ -683,7 +684,7 @@ body::before {
 
 
 /* ===================================== */
-/* MUSICA */
+/* MÚSICA */
 /* ===================================== */
 
 .music-player {
@@ -1085,10 +1086,6 @@ body::before {
     background:
         var(--rose-light);
 
-    transition:
-        transform 0.25s ease,
-        background 0.25s ease;
-
 }
 
 
@@ -1181,14 +1178,76 @@ body::before {
 }
 
 
-.month,
-.event-hour {
+.month {
 
     font-family:
         "Cormorant Garamond",
         serif;
 
     font-size: 1.5rem;
+
+}
+
+
+.event-times {
+
+    max-width: 380px;
+
+    margin:
+        28px auto 0;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1px 1fr;
+
+    align-items: center;
+
+    gap: 18px;
+
+}
+
+
+.event-time-divider {
+
+    width: 1px;
+
+    height: 48px;
+
+    background:
+        rgba(183,110,121,0.25);
+
+}
+
+
+.event-time-item span {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-size: 0.62rem;
+
+    letter-spacing: 0.18em;
+
+    color:
+        var(--text-soft);
+
+}
+
+
+.event-time-item strong {
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 1.45rem;
+
+    font-weight: 500;
+
+    color:
+        var(--rose-gold-dark);
 
 }
 
@@ -1550,10 +1609,24 @@ body::before {
 }
 
 
-.elegant-title {
+.event-label {
 
     margin:
-        0;
+        0 0 10px;
+
+    font-size: 0.62rem;
+
+    letter-spacing: 0.22em;
+
+    color:
+        rgba(255,250,246,0.75);
+
+}
+
+
+.elegant-title {
+
+    margin: 0;
 
     font-family:
         "Parisienne",
@@ -1583,7 +1656,7 @@ body::before {
     height: 1px;
 
     margin:
-        24px auto 30px;
+        24px auto 27px;
 
     background:
 
@@ -1593,6 +1666,25 @@ body::before {
             rgba(242,213,181,0.88),
             transparent
         );
+
+}
+
+
+.elegant-time {
+
+    margin:
+        0 0 20px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 2.15rem;
+
+    letter-spacing: 0.08em;
+
+    color:
+        #f8e4cf;
 
 }
 
@@ -1616,9 +1708,10 @@ body::before {
 }
 
 
+.event-description,
 .location-address {
 
-    max-width: 350px;
+    max-width: 390px;
 
     margin:
         0 auto;
@@ -1627,58 +1720,12 @@ body::before {
         "Cormorant Garamond",
         serif;
 
-    font-size:
-        1.32rem;
+    font-size: 1.25rem;
 
     line-height: 1.55;
 
     color:
         rgba(255,250,246,0.94);
-
-}
-
-
-.dress-description {
-
-    max-width: 430px;
-
-    margin:
-        0 auto 14px;
-
-    font-family:
-        "Cormorant Garamond",
-        serif;
-
-    font-size: 1.28rem;
-
-    line-height: 1.5;
-
-}
-
-
-.dress-note {
-
-    max-width: 450px;
-
-    margin:
-        0 auto;
-
-    font-size: 0.82rem;
-
-    line-height: 1.7;
-
-    color:
-        rgba(255,250,246,0.92);
-
-}
-
-
-.dress-note strong {
-
-    color:
-        #f7e2cf;
-
-    font-weight: 600;
 
 }
 
@@ -1702,11 +1749,11 @@ body::before {
 
     text-decoration: none;
 
-    font-size: 0.68rem;
+    font-size: 0.66rem;
 
     font-weight: 600;
 
-    letter-spacing: 0.16em;
+    letter-spacing: 0.13em;
 
     color:
         #604047;
@@ -1727,42 +1774,83 @@ body::before {
         0 9px 20px
         rgba(74,42,48,0.16);
 
-    transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-
-}
-
-
-.elegant-button:hover {
-
-    transform:
-        translateY(-2px);
-
-    box-shadow:
-        0 12px 25px
-        rgba(74,42,48,0.22);
-
 }
 
 
 /* ===================================== */
-/* REGALOS ELEGANTES */
+/* DRESS CODE */
 /* ===================================== */
 
-.gifts-elegant-card {
+.dress-card {
+
+    padding-top:
+        56px;
 
     padding-bottom:
-        48px;
+        56px;
 
 }
 
 
+.dress-description {
+
+    max-width: 430px;
+
+    margin:
+        0 auto;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 1.35rem;
+
+    line-height: 1.6;
+
+}
+
+
+.dress-description strong {
+
+    color:
+        #f8e4cf;
+
+    font-weight: 600;
+
+}
+
+
+.dress-reserved {
+
+    max-width: 390px;
+
+    margin:
+        20px auto 0;
+
+    padding-top: 18px;
+
+    border-top:
+        1px solid
+        rgba(247,226,207,0.23);
+
+    font-size: 0.72rem;
+
+    line-height: 1.6;
+
+    letter-spacing: 0.05em;
+
+    color:
+        rgba(255,250,246,0.76);
+
+}
+
+
+/* ===================================== */
+/* REGALOS */
+/* ===================================== */
+
 .gifts-kicker {
-
-    margin-bottom:
-        12px;
-
+    margin-bottom: 12px;
 }
 
 
@@ -1827,10 +1915,6 @@ body::before {
     border:
         1px solid
         rgba(236,204,173,0.50);
-
-    box-shadow:
-        0 10px 25px
-        rgba(76,42,48,0.10);
 
 }
 
@@ -2125,6 +2209,15 @@ footer {
     }
 
 
+    .hero-hour {
+
+        font-size: 0.67rem;
+
+        letter-spacing: 0.08em;
+
+    }
+
+
     .photo-carousel {
 
         gap: 14px;
@@ -2192,6 +2285,20 @@ footer {
     }
 
 
+    .event-times {
+
+        gap: 10px;
+
+    }
+
+
+    .event-time-item strong {
+
+        font-size: 1.25rem;
+
+    }
+
+
     .elegant-card {
 
         padding:
@@ -2204,14 +2311,22 @@ footer {
 
     .elegant-title {
 
-        font-size: 3.45rem;
+        font-size: 3.3rem;
 
     }
 
 
+    .elegant-time {
+
+        font-size: 1.9rem;
+
+    }
+
+
+    .event-description,
     .location-address {
 
-        font-size: 1.18rem;
+        font-size: 1.16rem;
 
     }
 
