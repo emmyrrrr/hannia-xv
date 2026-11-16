@@ -4,7 +4,7 @@
 
 const invitados = {
 
-      HD000: {
+    HD000: {
         tipo: "individual",
         nombre: "emmyr",
         password: "emmyr",
@@ -682,14 +682,11 @@ function validateAccess() {
     folioError.textContent =
         "";
 
-
     folioActual =
         folio;
 
-
     invitacionActual =
         invitados[folio];
-
 
     loadInvitation();
 
@@ -815,16 +812,13 @@ function loadInvitation() {
                     "option"
                 );
 
-
             option.value =
                 i;
-
 
             option.textContent =
                 i === 1
                     ? "1 persona"
                     : `${i} personas`;
-
 
             attendanceSelect.appendChild(
                 option
@@ -1122,7 +1116,7 @@ const eventDate =
         2027,
         0,
         16,
-        20,
+        18,
         0,
         0
     );
@@ -1254,15 +1248,15 @@ const calendarTitle =
 
 
 const calendarLocation =
-    "JARDÍN PRINCESS, Av. Miguel Hidalgo 260, Jardines de Morelos, Ecatepec de Morelos, Estado de México";
+    "Ceremonia religiosa y recepción de los XV años de Hannia Danae";
 
 
 const calendarDescription =
-    "Celebración de los XV años de Hannia Danae.";
+    "Ceremonia religiosa a las 18:00 hrs. Recepción a las 19:30 hrs en Jardín Princess.";
 
 
 const calendarStart =
-    "20270116T200000";
+    "20270116T180000";
 
 
 const calendarEnd =
