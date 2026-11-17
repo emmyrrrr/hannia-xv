@@ -13,7 +13,6 @@
     --shadow:
         0 18px 45px
         rgba(100,65,70,0.16);
-
 }
 
 
@@ -46,12 +45,6 @@ body {
             transparent 25%
         ),
 
-        radial-gradient(
-            circle at 85% 40%,
-            rgba(217,176,140,0.08),
-            transparent 25%
-        ),
-
         linear-gradient(
             180deg,
             #fffdfb,
@@ -59,32 +52,6 @@ body {
         );
 
     overflow-x: hidden;
-
-}
-
-
-body::before {
-
-    content: "";
-
-    position: fixed;
-
-    inset: 0;
-
-    pointer-events: none;
-
-    background-image:
-
-        repeating-linear-gradient(
-            0deg,
-            rgba(70,45,50,0.015),
-            rgba(70,45,50,0.015) 1px,
-            transparent 1px,
-            transparent 4px
-        );
-
-    z-index: -1;
-
 }
 
 
@@ -98,9 +65,7 @@ body::before {
 }
 
 
-/* ===================================== */
 /* PANTALLAS */
-/* ===================================== */
 
 .welcome-screen,
 .folio-screen {
@@ -130,7 +95,6 @@ body::before {
             #fffdfb,
             #f6ece8
         );
-
 }
 
 
@@ -148,7 +112,6 @@ body::before {
     visibility: hidden;
 
     pointer-events: none;
-
 }
 
 
@@ -159,7 +122,6 @@ body::before {
     visibility: hidden;
 
     pointer-events: none;
-
 }
 
 
@@ -170,7 +132,6 @@ body::before {
     visibility: visible;
 
     pointer-events: auto;
-
 }
 
 
@@ -181,25 +142,17 @@ body::before {
     visibility: hidden;
 
     pointer-events: none;
-
 }
 
 
-/* ===================================== */
 /* BIENVENIDA */
-/* ===================================== */
 
 .welcome-content,
 .folio-access-card {
 
-    width:
-        min(
-            100%,
-            560px
-        );
+    width: min(100%,560px);
 
-    padding:
-        55px 25px;
+    padding: 55px 25px;
 
     text-align: center;
 
@@ -214,7 +167,6 @@ body::before {
         var(--shadow);
 
     position: relative;
-
 }
 
 
@@ -232,7 +184,6 @@ body::before {
         rgba(217,176,140,0.40);
 
     pointer-events: none;
-
 }
 
 
@@ -245,7 +196,6 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -256,11 +206,7 @@ body::before {
         cursive;
 
     font-size:
-        clamp(
-            4.5rem,
-            15vw,
-            7rem
-        );
+        clamp(4.5rem,15vw,7rem);
 
     font-weight: 400;
 
@@ -269,7 +215,6 @@ body::before {
 
     margin:
         15px 0;
-
 }
 
 
@@ -290,7 +235,6 @@ body::before {
             var(--champagne),
             transparent
         );
-
 }
 
 
@@ -303,7 +247,6 @@ body::before {
     font-size: 1.5rem;
 
     letter-spacing: 0.20em;
-
 }
 
 
@@ -338,11 +281,6 @@ body::before {
             var(--rose-gold-dark),
             var(--rose-gold)
         );
-
-    box-shadow:
-        0 10px 28px
-        rgba(143,79,90,0.28);
-
 }
 
 
@@ -354,13 +292,10 @@ body::before {
 
     color:
         var(--text-soft);
-
 }
 
 
-/* ===================================== */
 /* ACCESO */
-/* ===================================== */
 
 .folio-access-title {
 
@@ -369,19 +304,12 @@ body::before {
         cursive;
 
     font-size:
-        clamp(
-            2.8rem,
-            10vw,
-            4.2rem
-        );
+        clamp(2.8rem,10vw,4.2rem);
 
     font-weight: 400;
 
     color:
         var(--rose-gold-dark);
-
-    margin-bottom: 12px;
-
 }
 
 
@@ -400,17 +328,13 @@ body::before {
 
     color:
         var(--text-soft);
-
 }
 
 
 .access-label {
 
     width:
-        min(
-            100%,
-            320px
-        );
+        min(100%,320px);
 
     display: block;
 
@@ -421,13 +345,12 @@ body::before {
 
     font-size: 0.68rem;
 
-    text-transform: uppercase;
-
     letter-spacing: 0.15em;
 
     color:
         var(--rose-gold-dark);
 
+    text-transform: uppercase;
 }
 
 
@@ -435,10 +358,7 @@ body::before {
 .password-input-wrapper {
 
     width:
-        min(
-            100%,
-            320px
-        );
+        min(100%,320px);
 
     height: 58px;
 
@@ -458,7 +378,6 @@ body::before {
     border-radius: 999px;
 
     background: white;
-
 }
 
 
@@ -485,7 +404,6 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -511,10 +429,6 @@ body::before {
 
     color:
         var(--brown);
-
-    background:
-        transparent;
-
 }
 
 
@@ -523,28 +437,18 @@ body::before {
 }
 
 
-.folio-submit-button {
-    margin-top: 15px;
-}
-
-
 .folio-error {
 
     min-height: 20px;
-
-    margin-top: 15px;
 
     color:
         #a44855;
 
     font-size: 0.75rem;
-
 }
 
 
-/* ===================================== */
 /* PORTADA */
-/* ===================================== */
 
 .hero {
 
@@ -558,17 +462,13 @@ body::before {
 
     padding:
         35px 20px;
-
 }
 
 
 .hero-card {
 
     width:
-        min(
-            100%,
-            680px
-        );
+        min(100%,680px);
 
     padding:
         60px 25px;
@@ -584,7 +484,6 @@ body::before {
 
     box-shadow:
         var(--shadow);
-
 }
 
 
@@ -596,7 +495,6 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -607,17 +505,12 @@ body::before {
         cursive;
 
     font-size:
-        clamp(
-            4rem,
-            14vw,
-            8rem
-        );
+        clamp(4rem,14vw,8rem);
 
     font-weight: 400;
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -633,7 +526,6 @@ body::before {
 
     color:
         var(--champagne);
-
 }
 
 
@@ -644,7 +536,6 @@ body::before {
         serif;
 
     font-size: 1.5rem;
-
 }
 
 
@@ -652,13 +543,10 @@ body::before {
 
     font-size: 0.78rem;
 
-    line-height: 1.7;
-
     letter-spacing: 0.13em;
 
     color:
         var(--text-soft);
-
 }
 
 
@@ -679,21 +567,15 @@ body::before {
             var(--champagne),
             transparent
         );
-
 }
 
 
-/* ===================================== */
-/* MÚSICA */
-/* ===================================== */
+/* MUSICA */
 
 .music-player {
 
     width:
-        min(
-            100%,
-            440px
-        );
+        min(100%,440px);
 
     margin:
         30px auto 0;
@@ -708,7 +590,6 @@ body::before {
 
     background:
         rgba(255,255,255,0.65);
-
 }
 
 
@@ -721,7 +602,6 @@ body::before {
         serif;
 
     font-size: 1.5rem;
-
 }
 
 
@@ -732,7 +612,6 @@ body::before {
 
     color:
         var(--text-soft);
-
 }
 
 
@@ -759,7 +638,6 @@ body::before {
             var(--rose-gold-dark),
             var(--rose-gold)
         );
-
 }
 
 
@@ -775,7 +653,6 @@ body::before {
 
     color:
         var(--text-soft);
-
 }
 
 
@@ -785,7 +662,6 @@ body::before {
 
     animation:
         arrowMove 1.5s infinite;
-
 }
 
 
@@ -799,21 +675,15 @@ body::before {
     50% {
         transform: translateY(8px);
     }
-
 }
 
 
-/* ===================================== */
 /* SECCIONES */
-/* ===================================== */
 
 .section {
 
     width:
-        min(
-            100%,
-            800px
-        );
+        min(100%,800px);
 
     margin: auto;
 
@@ -821,7 +691,6 @@ body::before {
         75px 22px;
 
     text-align: center;
-
 }
 
 
@@ -833,17 +702,12 @@ body::before {
         cursive;
 
     font-size:
-        clamp(
-            2.8rem,
-            9vw,
-            4.5rem
-        );
+        clamp(2.8rem,9vw,4.5rem);
 
     font-weight: 400;
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -858,20 +722,13 @@ body::before {
         serif;
 
     font-size:
-        clamp(
-            1.25rem,
-            4vw,
-            1.7rem
-        );
+        clamp(1.25rem,4vw,1.7rem);
 
     line-height: 1.6;
-
 }
 
 
-/* ===================================== */
 /* FOTOS */
-/* ===================================== */
 
 .photos-section {
 
@@ -881,7 +738,6 @@ body::before {
     text-align: center;
 
     overflow: hidden;
-
 }
 
 
@@ -889,22 +745,14 @@ body::before {
 
     color:
         var(--text-soft);
-
-    padding:
-        0 20px;
-
 }
 
 
 .carousel-wrapper {
 
-    width: 100%;
-
     position: relative;
 
-    margin:
-        20px auto 0;
-
+    width: 100%;
 }
 
 
@@ -918,8 +766,6 @@ body::before {
 
     overflow-x: auto;
 
-    overflow-y: hidden;
-
     padding:
         30px max(
             25px,
@@ -932,11 +778,6 @@ body::before {
     scroll-behavior: smooth;
 
     scrollbar-width: none;
-
-    -webkit-overflow-scrolling: touch;
-
-    overscroll-behavior-x: contain;
-
 }
 
 
@@ -948,11 +789,7 @@ body::before {
 .polaroid {
 
     flex:
-        0 0
-        min(
-            78vw,
-            350px
-        );
+        0 0 min(78vw,350px);
 
     padding:
         14px 14px 45px;
@@ -961,12 +798,9 @@ body::before {
 
     scroll-snap-align: center;
 
-    scroll-snap-stop: always;
-
     box-shadow:
         0 15px 35px
         rgba(65,40,45,0.15);
-
 }
 
 
@@ -979,13 +813,6 @@ body::before {
     height: 350px;
 
     object-fit: cover;
-
-    pointer-events: none;
-
-    user-select: none;
-
-    -webkit-user-drag: none;
-
 }
 
 
@@ -1008,34 +835,14 @@ body::before {
 
     border-radius: 50%;
 
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
     cursor: pointer;
-
-    font-family:
-        "Cormorant Garamond",
-        serif;
-
-    font-size: 2rem;
 
     color: white;
 
+    font-size: 2rem;
+
     background:
-
-        linear-gradient(
-            135deg,
-            var(--rose-gold-dark),
-            var(--rose-gold)
-        );
-
-    box-shadow:
-        0 8px 20px
-        rgba(100,65,70,0.22);
-
+        var(--rose-gold-dark);
 }
 
 
@@ -1051,21 +858,13 @@ body::before {
 
 .carousel-dots {
 
-    min-height: 16px;
-
     display: flex;
 
     justify-content: center;
 
-    align-items: center;
-
-    flex-wrap: wrap;
-
     gap: 9px;
 
-    padding:
-        5px 20px;
-
+    padding: 10px;
 }
 
 
@@ -1075,17 +874,12 @@ body::before {
 
     height: 9px;
 
-    padding: 0;
-
     border: none;
 
     border-radius: 50%;
 
-    cursor: pointer;
-
     background:
         var(--rose-light);
-
 }
 
 
@@ -1096,21 +890,15 @@ body::before {
 
     transform:
         scale(1.35);
-
 }
 
 
-/* ===================================== */
 /* FECHA */
-/* ===================================== */
 
 .date-card {
 
     width:
-        min(
-            100%,
-            560px
-        );
+        min(100%,560px);
 
     margin: auto;
 
@@ -1126,7 +914,6 @@ body::before {
 
     box-shadow:
         var(--shadow);
-
 }
 
 
@@ -1138,16 +925,10 @@ body::before {
         1fr auto 1fr;
 
     align-items: center;
-
-    gap: 18px;
-
 }
 
 
 .date-side {
-
-    padding:
-        8px 2px;
 
     border-top:
         1px solid
@@ -1157,10 +938,11 @@ body::before {
         1px solid
         var(--champagne);
 
+    padding: 8px;
+
     font-size: 0.75rem;
 
     letter-spacing: 0.22em;
-
 }
 
 
@@ -1174,7 +956,6 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -1185,7 +966,6 @@ body::before {
         serif;
 
     font-size: 1.5rem;
-
 }
 
 
@@ -1202,21 +982,15 @@ body::before {
         1fr 1px 1fr;
 
     align-items: center;
-
-    gap: 18px;
-
 }
 
 
 .event-time-divider {
 
-    width: 1px;
-
     height: 48px;
 
     background:
         rgba(183,110,121,0.25);
-
 }
 
 
@@ -1224,15 +998,12 @@ body::before {
 
     display: block;
 
-    margin-bottom: 5px;
-
     font-size: 0.62rem;
 
     letter-spacing: 0.18em;
 
     color:
         var(--text-soft);
-
 }
 
 
@@ -1244,17 +1015,12 @@ body::before {
 
     font-size: 1.45rem;
 
-    font-weight: 500;
-
     color:
         var(--rose-gold-dark);
-
 }
 
 
-/* ===================================== */
 /* CONTADOR */
-/* ===================================== */
 
 .countdown-title {
 
@@ -1266,7 +1032,6 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -1278,7 +1043,6 @@ body::before {
         repeat(4,1fr);
 
     gap: 10px;
-
 }
 
 
@@ -1289,11 +1053,6 @@ body::before {
 
     background:
         rgba(255,255,255,0.70);
-
-    border:
-        1px solid
-        rgba(183,110,121,0.18);
-
 }
 
 
@@ -1309,7 +1068,6 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -1318,31 +1076,15 @@ body::before {
     font-size: 0.60rem;
 
     text-transform: uppercase;
-
-    letter-spacing: 0.12em;
-
-    color:
-        var(--text-soft);
-
 }
 
 
-.calendar-container {
-    margin-top: 35px;
-}
-
-
-/* ===================================== */
-/* INVITADO */
-/* ===================================== */
+/* INVITADOS */
 
 .family-card {
 
     width:
-        min(
-            100%,
-            560px
-        );
+        min(100%,560px);
 
     margin: auto;
 
@@ -1358,21 +1100,6 @@ body::before {
 
     box-shadow:
         var(--shadow);
-
-}
-
-
-.family-intro {
-
-    font-family:
-        "Cormorant Garamond",
-        serif;
-
-    font-size: 1.15rem;
-
-    color:
-        var(--text-soft);
-
 }
 
 
@@ -1381,7 +1108,6 @@ body::before {
     font-family:
         "Parisienne",
         cursive !important;
-
 }
 
 
@@ -1397,32 +1123,16 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
 .passes-text {
 
+    font-size: 0.72rem;
+
     text-transform: uppercase;
 
     letter-spacing: 0.18em;
-
-    font-size: 0.72rem;
-
-    color:
-        var(--champagne);
-
-}
-
-
-.family-message {
-
-    font-family:
-        "Cormorant Garamond",
-        serif;
-
-    font-size: 1.3rem;
-
 }
 
 
@@ -1435,73 +1145,28 @@ body::before {
     padding:
         10px 18px;
 
-    border-radius: 30px;
-
     border:
         1px solid
         rgba(183,110,121,0.30);
 
+    border-radius: 30px;
 }
 
-
-.passes-note {
-
-    margin-top: 25px;
-
-    font-size: 0.70rem;
-
-    color:
-        var(--text-soft);
-
-}
-
-
-/* ===================================== */
-/* ASISTENCIA */
-/* ===================================== */
 
 .attendance-box {
 
     margin:
         30px auto 10px;
 
-    max-width: 400px;
-
-    padding:
-        22px 18px;
+    padding: 20px;
 
     background:
         rgba(183,110,121,0.07);
-
 }
 
 
 .attendance-box.hidden {
     display: none;
-}
-
-
-.attendance-title {
-
-    font-family:
-        "Cormorant Garamond",
-        serif;
-
-    font-size: 1.3rem;
-
-    color:
-        var(--rose-gold-dark);
-
-}
-
-
-.attendance-description {
-
-    font-size: 0.72rem;
-
-    color:
-        var(--text-soft);
-
 }
 
 
@@ -1513,28 +1178,20 @@ body::before {
 
     border:
         1px solid
-        rgba(183,110,121,0.35);
+        var(--rose-light);
 
     border-radius: 30px;
 
     background: white;
-
-    text-align: center;
-
 }
 
 
-/* ===================================== */
-/* TARJETAS ELEGANTES */
-/* ===================================== */
+/* TARJETAS */
 
 .elegant-card {
 
     width:
-        min(
-            100%,
-            590px
-        );
+        min(100%,590px);
 
     margin: auto;
 
@@ -1543,10 +1200,6 @@ body::before {
 
     border-radius: 32px;
 
-    position: relative;
-
-    overflow: hidden;
-
     color:
         #fffaf6;
 
@@ -1554,9 +1207,8 @@ body::before {
 
         linear-gradient(
             145deg,
-            #b9717d 0%,
-            #a25e6a 48%,
-            #8f4f5a 100%
+            #b9717d,
+            #8f4f5a
         );
 
     border:
@@ -1566,31 +1218,6 @@ body::before {
     box-shadow:
         0 22px 48px
         rgba(99,55,64,0.18);
-
-}
-
-
-.elegant-card::before {
-
-    content: "";
-
-    position: absolute;
-
-    top: -70px;
-
-    right: -90px;
-
-    width: 240px;
-
-    height: 240px;
-
-    border-radius: 50%;
-
-    background:
-        rgba(255,255,255,0.045);
-
-    pointer-events: none;
-
 }
 
 
@@ -1604,48 +1231,32 @@ body::before {
         0 auto 18px;
 
     background:
-        rgba(242,213,181,0.85);
-
+        #f2d5b5;
 }
 
 
 .event-label {
 
-    margin:
-        0 0 10px;
-
     font-size: 0.62rem;
 
     letter-spacing: 0.22em;
 
-    color:
-        rgba(255,250,246,0.75);
-
+    opacity: 0.8;
 }
 
 
 .elegant-title {
-
-    margin: 0;
 
     font-family:
         "Parisienne",
         cursive;
 
     font-size:
-        clamp(
-            3.2rem,
-            10vw,
-            4.4rem
-        );
+        clamp(3.2rem,10vw,4.4rem);
 
     font-weight: 400;
 
-    line-height: 1.1;
-
-    color:
-        #fffaf6;
-
+    margin: 0;
 }
 
 
@@ -1656,55 +1267,34 @@ body::before {
     height: 1px;
 
     margin:
-        24px auto 27px;
+        24px auto;
 
     background:
-
-        linear-gradient(
-            90deg,
-            transparent,
-            rgba(242,213,181,0.88),
-            transparent
-        );
-
+        #f2d5b5;
 }
 
 
 .elegant-time {
 
-    margin:
-        0 0 20px;
-
     font-family:
         "Cormorant Garamond",
         serif;
 
-    font-size: 2.15rem;
-
-    letter-spacing: 0.08em;
+    font-size: 2.1rem;
 
     color:
         #f8e4cf;
-
 }
 
 
 .elegant-kicker {
 
-    margin:
-        0 0 20px;
-
     font-size: 0.78rem;
-
-    font-weight: 600;
 
     letter-spacing: 0.19em;
 
-    text-transform: uppercase;
-
     color:
         #f7e2cf;
-
 }
 
 
@@ -1714,7 +1304,7 @@ body::before {
     max-width: 390px;
 
     margin:
-        0 auto;
+        auto;
 
     font-family:
         "Cormorant Garamond",
@@ -1723,37 +1313,30 @@ body::before {
     font-size: 1.25rem;
 
     line-height: 1.55;
-
-    color:
-        rgba(255,250,246,0.94);
-
 }
 
 
-.elegant-button {
+.elegant-button,
+.button {
 
     display: inline-flex;
 
-    align-items: center;
-
     justify-content: center;
 
-    min-width: 170px;
-
-    margin-top: 30px;
+    margin-top: 25px;
 
     padding:
-        13px 25px;
+        13px 26px;
 
     border-radius: 999px;
 
     text-decoration: none;
 
-    font-size: 0.66rem;
+    font-size: 0.68rem;
 
     font-weight: 600;
 
-    letter-spacing: 0.13em;
+    letter-spacing: 0.12em;
 
     color:
         #604047;
@@ -1765,39 +1348,16 @@ body::before {
             #f7e4d2,
             #d6a27e
         );
-
-    border:
-        1px solid
-        rgba(255,255,255,0.28);
-
-    box-shadow:
-        0 9px 20px
-        rgba(74,42,48,0.16);
-
 }
 
 
-/* ===================================== */
 /* DRESS CODE */
-/* ===================================== */
-
-.dress-card {
-
-    padding-top:
-        56px;
-
-    padding-bottom:
-        56px;
-
-}
-
 
 .dress-description {
 
     max-width: 430px;
 
-    margin:
-        0 auto;
+    margin: auto;
 
     font-family:
         "Cormorant Garamond",
@@ -1806,7 +1366,6 @@ body::before {
     font-size: 1.35rem;
 
     line-height: 1.6;
-
 }
 
 
@@ -1814,64 +1373,28 @@ body::before {
 
     color:
         #f8e4cf;
-
-    font-weight: 600;
-
 }
 
 
 .dress-reserved {
 
-    max-width: 390px;
-
-    margin:
-        20px auto 0;
-
-    padding-top: 18px;
-
-    border-top:
-        1px solid
-        rgba(247,226,207,0.23);
+    margin-top: 20px;
 
     font-size: 0.72rem;
 
-    line-height: 1.6;
-
-    letter-spacing: 0.05em;
-
-    color:
-        rgba(255,250,246,0.76);
-
+    opacity: 0.8;
 }
 
 
-/* ===================================== */
 /* REGALOS */
-/* ===================================== */
-
-.gifts-kicker {
-    margin-bottom: 12px;
-}
-
 
 .gifts-intro {
-
-    max-width: 430px;
-
-    margin:
-        0 auto 30px;
 
     font-family:
         "Cormorant Garamond",
         serif;
 
-    font-size: 1.18rem;
-
-    line-height: 1.5;
-
-    color:
-        rgba(255,250,246,0.92);
-
+    font-size: 1.2rem;
 }
 
 
@@ -1883,11 +1406,7 @@ body::before {
 
     gap: 16px;
 
-    max-width: 500px;
-
-    margin:
-        0 auto;
-
+    margin-top: 30px;
 }
 
 
@@ -1896,36 +1415,32 @@ body::before {
     display: grid;
 
     grid-template-columns:
-        72px 1fr;
+        70px 1fr;
 
     gap: 18px;
 
     align-items: center;
 
     padding:
-        22px 24px;
+        20px;
 
     border-radius: 24px;
 
-    text-align: left;
-
     background:
-        rgba(255,250,246,0.97);
+        #fffaf6;
 
-    border:
-        1px solid
-        rgba(236,204,173,0.50);
+    color:
+        var(--brown);
 
+    text-align: left;
 }
 
 
 .gift-line-icon {
 
-    width: 62px;
+    width: 60px;
 
-    height: 62px;
-
-    border-radius: 50%;
+    height: 60px;
 
     display: flex;
 
@@ -1933,21 +1448,11 @@ body::before {
 
     justify-content: center;
 
-    color:
-        var(--rose-gold-dark);
+    border-radius: 50%;
 
     border:
         1px solid
-        rgba(183,110,121,0.34);
-
-    background:
-
-        linear-gradient(
-            145deg,
-            #fffaf6,
-            #f5e7df
-        );
-
+        var(--rose-light);
 }
 
 
@@ -1960,111 +1465,52 @@ body::before {
     fill: none;
 
     stroke:
-        currentColor;
+        var(--rose-gold-dark);
 
     stroke-width: 1.4;
-
-    stroke-linecap: round;
-
-    stroke-linejoin: round;
-
 }
 
 
 .gift-option-text h4 {
 
-    margin:
-        0 0 7px;
+    margin: 0;
 
     font-family:
         "Cormorant Garamond",
         serif;
 
     font-size: 1.3rem;
-
-    font-weight: 600;
-
-    color:
-        var(--brown);
-
 }
 
 
 .gift-option-text p {
 
-    margin: 0;
-
     font-size: 0.72rem;
-
-    line-height: 1.55;
 
     color:
         var(--text-soft);
-
 }
 
 
-/* ===================================== */
-/* BOTONES GENERALES */
-/* ===================================== */
-
-.button {
-
-    display: inline-flex;
-
-    justify-content: center;
-
-    margin-top: 18px;
-
-    padding:
-        13px 28px;
-
-    border-radius: 50px;
-
-    text-decoration: none;
-
-    font-size: 0.72rem;
-
-    font-weight: 600;
-
-    letter-spacing: 0.12em;
-
-    color:
-        #5e3d43;
-
-    background:
-
-        linear-gradient(
-            180deg,
-            #f6dcc7,
-            #c99270
-        );
-
-}
-
-
-/* ===================================== */
-/* RSVP */
-/* ===================================== */
+/* CONFIRMACION */
 
 .rsvp-deadline {
+
+    max-width: 430px;
 
     margin:
         25px auto;
 
     padding:
-        18px 20px;
-
-    max-width: 430px;
+        18px;
 
     border-top:
         1px solid
-        rgba(183,110,121,0.30);
+        var(--rose-light);
 
     border-bottom:
         1px solid
-        rgba(183,110,121,0.30);
-
+        var(--rose-light);
 }
 
 
@@ -2072,22 +1518,13 @@ body::before {
 
     display: block;
 
-    max-width: 390px;
-
-    margin:
-        0 auto 12px;
+    margin-bottom: 12px;
 
     font-size: 0.68rem;
 
-    line-height: 1.55;
+    line-height: 1.5;
 
     text-transform: uppercase;
-
-    letter-spacing: 0.08em;
-
-    color:
-        var(--text-soft);
-
 }
 
 
@@ -2101,7 +1538,6 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
@@ -2111,13 +1547,10 @@ body::before {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
-/* ===================================== */
 /* FOOTER */
-/* ===================================== */
 
 footer {
 
@@ -2125,7 +1558,6 @@ footer {
         40px 20px;
 
     text-align: center;
-
 }
 
 
@@ -2139,13 +1571,10 @@ footer {
 
     color:
         var(--rose-gold-dark);
-
 }
 
 
-/* ===================================== */
 /* ANIMACIONES */
-/* ===================================== */
 
 .reveal {
 
@@ -2155,9 +1584,7 @@ footer {
         translateY(30px);
 
     transition:
-        opacity 0.8s ease,
-        transform 0.8s ease;
-
+        0.8s ease;
 }
 
 
@@ -2167,13 +1594,10 @@ footer {
 
     transform:
         translateY(0);
-
 }
 
 
-/* ===================================== */
 /* RESPONSIVE */
-/* ===================================== */
 
 @media (max-width:600px) {
 
@@ -2181,16 +1605,6 @@ footer {
 
         padding:
             60px 18px;
-
-    }
-
-
-    .welcome-content,
-    .folio-access-card {
-
-        padding:
-            40px 20px;
-
     }
 
 
@@ -2198,104 +1612,44 @@ footer {
 
         padding:
             50px 18px;
-
     }
 
 
     .name {
 
         font-size: 4.8rem;
-
-    }
-
-
-    .hero-hour {
-
-        font-size: 0.67rem;
-
-        letter-spacing: 0.08em;
-
     }
 
 
     .photo-carousel {
 
-        gap: 14px;
-
         padding-left: 11vw;
 
         padding-right: 11vw;
-
     }
 
 
     .polaroid {
 
         flex-basis: 78vw;
-
     }
 
 
     .polaroid img {
 
         height: 310px;
-
-    }
-
-
-    .carousel-button {
-
-        width: 40px;
-
-        height: 40px;
-
-        font-size: 1.7rem;
-
-    }
-
-
-    .carousel-button-prev {
-        left: 8px;
-    }
-
-
-    .carousel-button-next {
-        right: 8px;
     }
 
 
     .countdown {
 
         gap: 6px;
-
     }
 
 
     .count-number {
 
         font-size: 1.8rem;
-
-    }
-
-
-    .day-number {
-
-        font-size: 5rem;
-
-    }
-
-
-    .event-times {
-
-        gap: 10px;
-
-    }
-
-
-    .event-time-item strong {
-
-        font-size: 1.25rem;
-
     }
 
 
@@ -2305,69 +1659,29 @@ footer {
             44px 20px;
 
         border-radius: 28px;
-
     }
 
 
     .elegant-title {
 
         font-size: 3.3rem;
-
-    }
-
-
-    .elegant-time {
-
-        font-size: 1.9rem;
-
-    }
-
-
-    .event-description,
-    .location-address {
-
-        font-size: 1.16rem;
-
     }
 
 
     .gift-option-elegant {
 
         grid-template-columns:
-            58px 1fr;
+            55px 1fr;
 
-        gap: 14px;
-
-        padding:
-            18px 16px;
-
-        border-radius: 20px;
-
+        gap: 12px;
     }
 
 
     .gift-line-icon {
 
-        width: 54px;
+        width: 52px;
 
-        height: 54px;
-
-    }
-
-
-    .gift-line-icon svg {
-
-        width: 24px;
-
-        height: 24px;
-
-    }
-
-
-    .gift-option-text h4 {
-
-        font-size: 1.16rem;
-
+        height: 52px;
     }
 
 }
