@@ -1,77 +1,77 @@
 /* ========================================== */
-/* INVITACIONES */
+/* INVITADOS */
 /* ========================================== */
 
 const invitados = {
 
     HD000: {
-        tipo: "individual",
-        nombre: "emmyr",
+        tipo: "familia",
+        nombre: "Herrera Peñaloza",
         password: "emmyr",
-        pases: 1
+        pases: 5
     },
 
     HD001: {
         tipo: "familia",
-        nombre: "Gutiérrez Peñaloza",
-        password: "gutierrez peñaloza",
-        pases: 4
-    },
-
-    HD002: {
-        tipo: "familia",
-        nombre: "Peñaloza Reséndiz",
+        nombre: "Peñaloza Resendiz",
         password: "peñaloza resendiz",
         pases: 4
     },
 
+    HD002: {
+        tipo: "individual",
+        nombre: "Ignacio Gonzalez Lopez",
+        password: "ignacio gonzalez lopez",
+        pases: 1
+    },
+
     HD003: {
         tipo: "familia",
-        nombre: "Peñaloza Vázquez",
+        nombre: "Gutierrez Peñaloza",
+        password: "gutierrez peñaloza",
+        pases: 4
+    },
+
+    HD004: {
+        tipo: "familia",
+        nombre: "Peñaloza Vazquez",
         password: "peñaloza vazquez",
         pases: 3
     },
 
-    HD004: {
-        tipo: "individual",
-        nombre: "Ignacio Gonzalez",
-        password: "ignacio gonzalez",
-        pases: 1
-    },
-
     HD005: {
         tipo: "individual",
-        nombre: "Pablo Peñaloza",
-        password: "pablo peñaloza",
+        nombre: "Pablo Peñaloza Millan",
+        password: "pablo peñaloza millan",
         pases: 1
     },
 
     HD006: {
-        tipo: "individual",
-        nombre: "Cristhian Peñaloza",
-        password: "cristhian peñaloza",
-        pases: 1
+        tipo: "familia",
+        nombre: "Peñaloza Gonzalez",
+        password: "peñaloza gonzalez",
+        pases: 2
     },
 
     HD007: {
+        tipo: "familia",
+        nombre: "Christian Peñaloza",
+        password: "christian peñaloza",
+        pases: 2
+    },
+
+    HD008: {
         tipo: "familia",
         nombre: "Peñaloza Castellanos",
         password: "peñaloza castellanos",
         pases: 4
     },
 
-    HD008: {
+    HD009: {
         tipo: "familia",
         nombre: "Uvalle Peñaloza",
         password: "uvalle peñaloza",
-        pases: 4
-    },
-
-    HD009: {
-        tipo: "familia",
-        nombre: "Peñaloza Gonzalez",
-        password: "peñaloza gonzalez",
-        pases: 2
+        pases: 3
     },
 
     HD010: {
@@ -83,16 +83,16 @@ const invitados = {
 
     HD011: {
         tipo: "familia",
-        nombre: "Herrera Parada",
-        password: "herrera parada",
+        nombre: "Palacios Panales",
+        password: "palacios panales",
         pases: 2
     },
 
     HD012: {
         tipo: "familia",
-        nombre: "Medina Herrera",
-        password: "medina herrera",
-        pases: 3
+        nombre: "Herrera Parada",
+        password: "herrera parada",
+        pases: 2
     },
 
     HD013: {
@@ -104,321 +104,250 @@ const invitados = {
 
     HD014: {
         tipo: "familia",
-        nombre: "Castañeda Palacios",
-        password: "castañeda palacios",
+        nombre: "Medina Herrera",
+        password: "medina herrera",
         pases: 3
     },
 
     HD015: {
-        tipo: "familia",
-        nombre: "Fragoso Panales",
-        password: "fragoso panales",
-        pases: 3
-    },
-
-    HD016: {
         tipo: "individual",
         nombre: "Juan Panales",
         password: "juan panales",
         pases: 1
     },
 
-    HD017: {
+    HD016: {
         tipo: "familia",
         nombre: "Panales Garcia",
         password: "panales garcia",
         pases: 4
     },
 
+    HD017: {
+        tipo: "familia",
+        nombre: "Castañeda Palacios",
+        password: "castañeda palacios",
+        pases: 3
+    },
+
     HD018: {
-        tipo: "individual",
-        nombre: "Claudia Panales",
-        password: "claudia panales",
-        pases: 1
+        tipo: "familia",
+        nombre: "Fragoso Panales",
+        password: "fragoso panales",
+        pases: 3
     },
 
     HD019: {
+        tipo: "individual",
+        nombre: "Rosa Maria Panales Ramirez",
+        password: "rosa maria panales ramirez",
+        pases: 1
+    },
+
+    HD020: {
         tipo: "familia",
         nombre: "Panales Perez",
         password: "panales perez",
         pases: 2
     },
 
-    HD020: {
-        tipo: "individual",
-        nombre: "Rosa Panales",
-        password: "rosa panales",
-        pases: 1
-    },
-
     HD021: {
-        tipo: "familia",
-        nombre: "Palacios Panales",
-        password: "palacios panales",
-        pases: 2
-    },
-
-    HD022: {
         tipo: "familia",
         nombre: "Paz Garcia",
         password: "paz garcia",
         pases: 5
     },
 
-    HD023: {
-        tipo: "individual",
-        nombre: "Gil",
-        password: "gil",
-        pases: 1
-    },
-
-    HD024: {
-        tipo: "individual",
-        nombre: "Monserrat",
-        password: "monserrat",
-        pases: 1
-    },
-
-    HD025: {
-        tipo: "individual",
-        nombre: "Manuel",
-        password: "manuel",
-        pases: 1
-    },
-
-    HD026: {
-        tipo: "individual",
-        nombre: "Omar",
-        password: "omar",
-        pases: 1
-    },
-
-    HD027: {
-        tipo: "individual",
-        nombre: "Josue",
-        password: "josue",
-        pases: 1
-    },
-
-    HD028: {
+    HD022: {
         tipo: "familia",
-        nombre: "Uriza Tonal",
-        password: "uriza tonal",
-        pases: 2
-    },
-
-    HD029: {
-        tipo: "familia",
-        nombre: "Ruiz Segoviano",
-        password: "ruiz segoviano",
+        nombre: "Zamora Palacios",
+        password: "zamora palacios",
         pases: 3
     },
 
-    HD030: {
+    HD023: {
         tipo: "familia",
-        nombre: "Garcia Pineda",
-        password: "garcia pineda",
-        pases: 2
+        nombre: "Uriza Atonal",
+        password: "uriza atonal",
+        pases: 3
     },
 
-    HD031: {
+    HD024: {
         tipo: "familia",
         nombre: "Jimenez Tellez",
         password: "jimenez tellez",
         pases: 5
     },
 
-    HD032: {
+    HD025: {
         tipo: "familia",
-        nombre: "Zeferino Prado",
-        password: "zeferino prado",
+        nombre: "Ruiz Segoviano",
+        password: "ruiz segoviano",
         pases: 4
     },
 
-    HD033: {
+    HD026: {
         tipo: "familia",
         nombre: "Ibarez Salazar",
         password: "ibarez salazar",
         pases: 2
     },
 
-    HD034: {
+    HD027: {
+        tipo: "familia",
+        nombre: "Prado",
+        password: "prado",
+        pases: 4
+    },
+
+    HD028: {
         tipo: "individual",
-        nombre: "Rocio Reyes",
-        password: "rocio reyes",
+        nombre: "Belen Ramirez",
+        password: "belen ramirez",
         pases: 1
     },
 
-    HD035: {
-        tipo: "individual",
-        nombre: "Berenice Marquina",
-        password: "berenice marquina",
-        pases: 1
-    },
-
-    HD036: {
-        tipo: "individual",
-        nombre: "Lizbeth Peña",
-        password: "lizbeth peña",
-        pases: 1
-    },
-
-    HD037: {
-        tipo: "individual",
-        nombre: "Mayra Hurtado",
-        password: "mayra hurtado",
-        pases: 1
-    },
-
-    HD038: {
-        tipo: "individual",
-        nombre: "Patricia Madrigal",
-        password: "patricia madrigal",
-        pases: 1
-    },
-
-    HD039: {
-        tipo: "individual",
-        nombre: "Fernanda Uriza",
-        password: "fernanda uriza",
-        pases: 1
-    },
-
-    HD040: {
-        tipo: "individual",
-        nombre: "Belen Madrigal",
-        password: "belen madrigal",
-        pases: 1
-    },
-
-    HD041: {
+    HD029: {
         tipo: "individual",
         nombre: "Mago Chukavina",
         password: "mago chukavina",
         pases: 1
     },
 
-    HD042: {
-        tipo: "individual",
-        nombre: "Yamile Hurtado",
-        password: "yamile hurtado",
-        pases: 1
-    },
-
-    HD043: {
-        tipo: "individual",
-        nombre: "Barbara Rodriguez",
-        password: "barbara rodriguez",
-        pases: 1
-    },
-
-    HD044: {
+    HD030: {
         tipo: "individual",
         nombre: "Sofia Contreras",
         password: "sofia contreras",
         pases: 1
     },
 
-    HD045: {
+    HD031: {
         tipo: "individual",
-        nombre: "Isabel Montes de Oca",
-        password: "isabel montes de oca",
+        nombre: "Danna Gutierrez",
+        password: "danna gutierrez",
         pases: 1
     },
 
-    HD046: {
-        tipo: "individual",
-        nombre: "Ximena Alanis",
-        password: "ximena alanis",
-        pases: 1
-    },
-
-    HD047: {
-        tipo: "individual",
-        nombre: "Valeria Islas",
-        password: "valeria islas",
-        pases: 1
-    },
-
-    HD048: {
+    HD032: {
         tipo: "individual",
         nombre: "Yulisa Sepultura",
         password: "yulisa sepultura",
         pases: 1
     },
 
-    HD049: {
+    HD033: {
         tipo: "individual",
-        nombre: "Marijo Garcia",
-        password: "marijo garcia",
+        nombre: "Yamileth Hurtado",
+        password: "yamileth hurtado",
         pases: 1
     },
 
-    HD050: {
+    HD034: {
+        tipo: "individual",
+        nombre: "Barbara Rodriguez",
+        password: "barbara rodriguez",
+        pases: 1
+    },
+
+    HD035: {
+        tipo: "individual",
+        nombre: "Valeria Islas",
+        password: "valeria islas",
+        pases: 1
+    },
+
+    HD036: {
+        tipo: "individual",
+        nombre: "Ximena Alanis",
+        password: "ximena alanis",
+        pases: 1
+    },
+
+    HD037: {
+        tipo: "individual",
+        nombre: "Isabel Montes de Oca",
+        password: "isabel montes de oca",
+        pases: 1
+    },
+
+    HD038: {
         tipo: "individual",
         nombre: "Leonardo Lopez",
         password: "leonardo lopez",
         pases: 1
     },
 
-    HD051: {
-        tipo: "individual",
-        nombre: "Mafer Ruiz",
-        password: "mafer ruiz",
-        pases: 1
-    },
-
-    HD052: {
+    HD039: {
         tipo: "individual",
         nombre: "Regina Davalos",
         password: "regina davalos",
         pases: 1
     },
 
-    HD053: {
+    HD040: {
         tipo: "individual",
-        nombre: "Andrea Geraldine",
-        password: "andrea geraldine",
+        nombre: "Angel Orozco",
+        password: "angel orozco",
         pases: 1
     },
 
-    HD054: {
-        tipo: "individual",
-        nombre: "Alan Ramirez",
-        password: "alan ramirez",
-        pases: 1
-    },
-
-    HD055: {
-        tipo: "individual",
-        nombre: "Mich Valdez",
-        password: "mich valdez",
-        pases: 1
-    },
-
-    HD056: {
+    HD041: {
         tipo: "individual",
         nombre: "Melanie Cordoba",
         password: "melanie cordoba",
         pases: 1
     },
 
-    HD057: {
+    HD042: {
         tipo: "individual",
-        nombre: "Tadeo Lopez",
-        password: "tadeo lopez",
+        nombre: "Daniela Guzman",
+        password: "daniela guzman",
         pases: 1
     },
 
-    HD058: {
+    HD043: {
+        tipo: "individual",
+        nombre: "Andrea Geraldine",
+        password: "andrea geraldine",
+        pases: 1
+    },
+
+    HD044: {
+        tipo: "individual",
+        nombre: "Alan Ramirez",
+        password: "alan ramirez",
+        pases: 1
+    },
+
+    HD045: {
+        tipo: "individual",
+        nombre: "Mich Navarro",
+        password: "mich navarro",
+        pases: 1
+    },
+
+    HD046: {
+        tipo: "individual",
+        nombre: "Marijo Garcia",
+        password: "marijo garcia",
+        pases: 1
+    },
+
+    HD047: {
         tipo: "individual",
         nombre: "Evan Delgado",
         password: "evan delgado",
         pases: 1
+    },
+
+    HD048: {
+        tipo: "individual",
+        nombre: "Tadeo Lopez",
+        password: "tadeo lopez",
+        pases: 1
     }
 
 };
-
 
 
 /* ========================================== */
@@ -427,7 +356,6 @@ const invitados = {
 
 let invitacionActual = null;
 let folioActual = null;
-
 
 
 /* ========================================== */
@@ -489,9 +417,8 @@ const playButton =
     document.getElementById("playButton");
 
 
-
 /* ========================================== */
-/* ABRIR INVITACIÓN */
+/* ABRIR */
 /* ========================================== */
 
 openInvitationButton.addEventListener(
@@ -507,17 +434,12 @@ openInvitationButton.addEventListener(
         );
 
         setTimeout(
-            function () {
-
-                folioInput.focus();
-
-            },
+            () => folioInput.focus(),
             400
         );
 
     }
 );
-
 
 
 /* ========================================== */
@@ -533,35 +455,17 @@ function normalizeFolio(value) {
     let clean =
         value
             .trim()
-            .toUpperCase();
-
-    clean =
-        clean.replace(
-            /\s+/g,
-            ""
-        );
-
-    clean =
-        clean.replace(
-            /^HD/,
-            ""
-        );
-
-    clean =
-        clean.replace(
-            /\D/g,
-            ""
-        );
+            .toUpperCase()
+            .replace(/\s+/g,"")
+            .replace(/^HD/,"")
+            .replace(/\D/g,"");
 
     if (!clean) {
         return null;
     }
 
     const number =
-        parseInt(
-            clean,
-            10
-        );
+        parseInt(clean,10);
 
     if (isNaN(number)) {
         return null;
@@ -569,15 +473,10 @@ function normalizeFolio(value) {
 
     return (
         "HD" +
-        String(number)
-            .padStart(
-                3,
-                "0"
-            )
+        String(number).padStart(3,"0")
     );
 
 }
-
 
 
 /* ========================================== */
@@ -611,9 +510,8 @@ function normalizePassword(value) {
 }
 
 
-
 /* ========================================== */
-/* VALIDAR ACCESO */
+/* VALIDAR */
 /* ========================================== */
 
 function validateAccess() {
@@ -622,7 +520,6 @@ function validateAccess() {
         normalizeFolio(
             folioInput.value
         );
-
 
     const password =
         normalizePassword(
@@ -636,17 +533,15 @@ function validateAccess() {
             "Ingresa el folio de tu invitación.";
 
         return;
-
     }
 
 
     if (!invitados[folio]) {
 
         folioError.textContent =
-            "No encontramos ese folio. Verifica los datos de tu invitación.";
+            "No encontramos ese folio.";
 
         return;
-
     }
 
 
@@ -656,7 +551,6 @@ function validateAccess() {
             "Ingresa la contraseña de tu invitación.";
 
         return;
-
     }
 
 
@@ -675,7 +569,6 @@ function validateAccess() {
             "La contraseña no coincide con esta invitación.";
 
         return;
-
     }
 
 
@@ -693,17 +586,15 @@ function validateAccess() {
 }
 
 
-
 folioSubmitButton.addEventListener(
     "click",
     validateAccess
 );
 
 
-
 folioInput.addEventListener(
     "keydown",
-    function (event) {
+    function(event) {
 
         if (
             event.key === "Enter"
@@ -717,10 +608,9 @@ folioInput.addEventListener(
 );
 
 
-
 passwordInput.addEventListener(
     "keydown",
-    function (event) {
+    function(event) {
 
         if (
             event.key === "Enter"
@@ -732,31 +622,6 @@ passwordInput.addEventListener(
 
     }
 );
-
-
-
-folioInput.addEventListener(
-    "input",
-    function () {
-
-        folioError.textContent =
-            "";
-
-    }
-);
-
-
-
-passwordInput.addEventListener(
-    "input",
-    function () {
-
-        folioError.textContent =
-            "";
-
-    }
-);
-
 
 
 /* ========================================== */
@@ -774,22 +639,17 @@ function loadInvitation() {
             "Familia " +
             invitacionActual.nombre;
 
-
         passesNumber.textContent =
             invitacionActual.pases;
-
 
         passesText.textContent =
             invitacionActual.pases === 1
                 ? "lugar reservado"
                 : "lugares reservados";
 
-
         attendanceBox
             .classList
-            .remove(
-                "hidden"
-            );
+            .remove("hidden");
 
 
         attendanceSelect.innerHTML = `
@@ -830,14 +690,8 @@ function loadInvitation() {
         whatsappButton.style.opacity =
             "0.55";
 
-
         whatsappButton.style.pointerEvents =
             "none";
-
-
-        whatsappButton.textContent =
-            "CONFIRMAR POR WHATSAPP";
-
 
         confirmationWarning.textContent =
             "Primero selecciona cuántas personas asistirán.";
@@ -849,36 +703,23 @@ function loadInvitation() {
         guestName.textContent =
             invitacionActual.nombre;
 
-
         passesNumber.textContent =
             "1";
-
 
         passesText.textContent =
             "lugar reservado";
 
-
         attendanceBox
             .classList
-            .add(
-                "hidden"
-            );
-
+            .add("hidden");
 
         createIndividualWhatsapp();
-
 
         whatsappButton.style.opacity =
             "1";
 
-
         whatsappButton.style.pointerEvents =
             "auto";
-
-
-        whatsappButton.textContent =
-            "CONFIRMAR MI ASISTENCIA";
-
 
         confirmationWarning.textContent =
             "Esta invitación corresponde a 1 persona.";
@@ -892,35 +733,25 @@ function loadInvitation() {
 
     folioScreen
         .classList
-        .remove(
-            "active"
-        );
+        .remove("active");
 
 
     folioScreen
         .classList
-        .add(
-            "hidden"
-        );
+        .add("hidden");
 
 
     invitationContent
         .classList
-        .add(
-            "active"
-        );
+        .add("active");
 
 
-    window.scrollTo(
-        0,
-        0
-    );
+    window.scrollTo(0,0);
 
 
     startMusic();
 
 }
-
 
 
 /* ========================================== */
@@ -948,7 +779,6 @@ Asistiré: Sí.`;
         `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 
 }
-
 
 
 /* ========================================== */
@@ -981,17 +811,10 @@ attendanceSelect.addEventListener(
             whatsappButton.style.opacity =
                 "0.55";
 
-
             whatsappButton.style.pointerEvents =
                 "none";
 
-
-            confirmationWarning.textContent =
-                "Primero selecciona cuántas personas asistirán.";
-
-
             return;
-
         }
 
 
@@ -1028,10 +851,6 @@ Asistiremos: ${textoPersonas}.`;
             "auto";
 
 
-        whatsappButton.textContent =
-            "CONFIRMAR POR WHATSAPP";
-
-
         confirmationWarning.textContent =
             `Confirmarás la asistencia de ${textoPersonas}.`;
 
@@ -1039,9 +858,8 @@ Asistiremos: ${textoPersonas}.`;
 );
 
 
-
 /* ========================================== */
-/* MÚSICA */
+/* MUSICA */
 /* ========================================== */
 
 async function startMusic() {
@@ -1055,7 +873,7 @@ async function startMusic() {
 
     }
 
-    catch (error) {
+    catch {
 
         playButton.textContent =
             "▶";
@@ -1063,7 +881,6 @@ async function startMusic() {
     }
 
 }
-
 
 
 playButton.addEventListener(
@@ -1074,22 +891,10 @@ playButton.addEventListener(
             music.paused
         ) {
 
-            try {
+            await music.play();
 
-                await music.play();
-
-                playButton.textContent =
-                    "❚❚";
-
-            }
-
-            catch (error) {
-
-                console.log(
-                    "No se pudo reproducir la música."
-                );
-
-            }
+            playButton.textContent =
+                "❚❚";
 
         }
 
@@ -1104,7 +909,6 @@ playButton.addEventListener(
 
     }
 );
-
 
 
 /* ========================================== */
@@ -1138,13 +942,8 @@ function updateCountdown() {
 
         document.getElementById(
             "countdown"
-        ).innerHTML = `
-
-            <div class="event-arrived">
-                ¡Llegó el gran día!
-            </div>
-
-        `;
+        ).innerHTML =
+            "¡Llegó el gran día!";
 
         return;
 
@@ -1201,36 +1000,26 @@ function updateCountdown() {
         "hours"
     ).textContent =
         String(hours)
-            .padStart(
-                2,
-                "0"
-            );
+            .padStart(2,"0");
 
 
     document.getElementById(
         "minutes"
     ).textContent =
         String(minutes)
-            .padStart(
-                2,
-                "0"
-            );
+            .padStart(2,"0");
 
 
     document.getElementById(
         "seconds"
     ).textContent =
         String(seconds)
-            .padStart(
-                2,
-                "0"
-            );
+            .padStart(2,"0");
 
 }
 
 
 updateCountdown();
-
 
 setInterval(
     updateCountdown,
@@ -1238,21 +1027,16 @@ setInterval(
 );
 
 
-
 /* ========================================== */
-/* GOOGLE CALENDAR */
+/* CALENDARIO */
 /* ========================================== */
 
 const calendarTitle =
     "XV Años de Hannia Danae";
 
 
-const calendarLocation =
-    "Ceremonia religiosa y recepción de los XV años de Hannia Danae";
-
-
 const calendarDescription =
-    "Ceremonia religiosa a las 18:00 hrs. Recepción a las 19:30 hrs en Jardín Princess.";
+    "Ceremonia religiosa a las 18:00 hrs y recepción a las 19:30 hrs.";
 
 
 const calendarStart =
@@ -1280,11 +1064,6 @@ const googleCalendarURL =
     "&details=" +
     encodeURIComponent(
         calendarDescription
-    ) +
-
-    "&location=" +
-    encodeURIComponent(
-        calendarLocation
     );
 
 
@@ -1294,7 +1073,6 @@ document.getElementById(
     googleCalendarURL;
 
 
-
 /* ========================================== */
 /* ANIMACIONES */
 /* ========================================== */
@@ -1302,11 +1080,10 @@ document.getElementById(
 const observer =
     new IntersectionObserver(
 
-        function (entries) {
+        function(entries) {
 
             entries.forEach(
-
-                function (entry) {
+                function(entry) {
 
                     if (
                         entry.isIntersecting
@@ -1315,42 +1092,31 @@ const observer =
                         entry
                             .target
                             .classList
-                            .add(
-                                "visible"
-                            );
+                            .add("visible");
 
                     }
 
                 }
-
             );
 
         },
 
         {
-            threshold:
-                0.12
+            threshold: 0.12
         }
 
     );
 
 
 document
-    .querySelectorAll(
-        ".reveal"
-    )
+    .querySelectorAll(".reveal")
     .forEach(
+        function(element) {
 
-        function (element) {
-
-            observer.observe(
-                element
-            );
+            observer.observe(element);
 
         }
-
     );
-
 
 
 /* ========================================== */
@@ -1398,44 +1164,26 @@ if (
 
 
     cards.forEach(
-        function (
-            card,
-            index
-        ) {
+        function(card,index) {
 
             const dot =
                 document.createElement(
                     "button"
                 );
 
-
-            dot.type =
-                "button";
-
-
             dot.className =
                 index === 0
                     ? "dot active"
                     : "dot";
 
-
-            dot.setAttribute(
-                "aria-label",
-                `Ir a la foto ${index + 1}`
-            );
-
-
             dot.addEventListener(
                 "click",
-                function () {
+                function() {
 
-                    goToSlide(
-                        index
-                    );
+                    goToSlide(index);
 
                 }
             );
-
 
             carouselDots.appendChild(
                 dot
@@ -1453,14 +1201,10 @@ if (
         );
 
 
-
     function updateDots() {
 
         dots.forEach(
-            function (
-                dot,
-                index
-            ) {
+            function(dot,index) {
 
                 dot.classList.toggle(
                     "active",
@@ -1471,7 +1215,6 @@ if (
         );
 
     }
-
 
 
     function goToSlide(index) {
@@ -1526,10 +1269,9 @@ if (
     }
 
 
-
     carouselPrev.addEventListener(
         "click",
-        function () {
+        function() {
 
             goToSlide(
                 currentIndex - 1
@@ -1539,10 +1281,9 @@ if (
     );
 
 
-
     carouselNext.addEventListener(
         "click",
-        function () {
+        function() {
 
             goToSlide(
                 currentIndex + 1
@@ -1552,13 +1293,12 @@ if (
     );
 
 
-
     let scrollTimer;
 
 
     carousel.addEventListener(
         "scroll",
-        function () {
+        function() {
 
             clearTimeout(
                 scrollTimer
@@ -1567,9 +1307,9 @@ if (
 
             scrollTimer =
                 setTimeout(
-                    function () {
+                    function() {
 
-                        const carouselCenter =
+                        const center =
                             carousel.scrollLeft +
                             carousel.clientWidth / 2;
 
@@ -1583,10 +1323,7 @@ if (
 
 
                         cards.forEach(
-                            function (
-                                card,
-                                index
-                            ) {
+                            function(card,index) {
 
                                 const cardCenter =
                                     card.offsetLeft +
@@ -1595,7 +1332,7 @@ if (
 
                                 const distance =
                                     Math.abs(
-                                        carouselCenter -
+                                        center -
                                         cardCenter
                                     );
 
@@ -1607,7 +1344,6 @@ if (
 
                                     closestDistance =
                                         distance;
-
 
                                     closestIndex =
                                         index;
@@ -1627,21 +1363,6 @@ if (
                     },
                     100
                 );
-
-        },
-        {
-            passive: true
-        }
-    );
-
-
-    window.addEventListener(
-        "resize",
-        function () {
-
-            goToSlide(
-                currentIndex
-            );
 
         }
     );
