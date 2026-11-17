@@ -86,6 +86,7 @@
 </div>
 
 
+
 <!-- ===================================== -->
 <!-- ACCESO -->
 <!-- ===================================== -->
@@ -162,6 +163,7 @@
 </div>
 
 
+
 <!-- ===================================== -->
 <!-- CONTENIDO -->
 <!-- ===================================== -->
@@ -172,7 +174,9 @@
 >
 
 
+<!-- ===================================== -->
 <!-- PORTADA -->
+<!-- ===================================== -->
 
 <section class="hero">
 
@@ -199,6 +203,7 @@
         <p class="hero-hour">
             MISA 18:00 HRS · RECEPCIÓN 19:30 HRS
         </p>
+
 
         <div class="music-player">
 
@@ -234,6 +239,7 @@
 
         </div>
 
+
         <p class="scroll-text">
             Desliza para descubrir la invitación
         </p>
@@ -247,7 +253,10 @@
 </section>
 
 
+
+<!-- ===================================== -->
 <!-- FRASE -->
+<!-- ===================================== -->
 
 <section class="section reveal">
 
@@ -280,7 +289,10 @@
 </section>
 
 
+
+<!-- ===================================== -->
 <!-- FOTOS -->
+<!-- ===================================== -->
 
 <section class="photos-section reveal">
 
@@ -292,6 +304,7 @@
         Algunos momentos que forman parte de mi historia
     </p>
 
+
     <div class="carousel-wrapper">
 
         <button
@@ -301,6 +314,7 @@
         >
             ‹
         </button>
+
 
         <div
             class="photo-carousel"
@@ -349,6 +363,7 @@
 
         </div>
 
+
         <button
             class="carousel-button carousel-button-next"
             id="carouselNext"
@@ -359,6 +374,7 @@
 
     </div>
 
+
     <div
         class="carousel-dots"
         id="carouselDots"
@@ -367,7 +383,10 @@
 </section>
 
 
+
+<!-- ===================================== -->
 <!-- FECHA -->
+<!-- ===================================== -->
 
 <section class="section reveal">
 
@@ -375,11 +394,13 @@
         El gran día
     </h2>
 
+
     <div class="date-card">
 
         <p class="month">
             Enero
         </p>
+
 
         <div class="date-layout">
 
@@ -397,27 +418,46 @@
 
         </div>
 
+
         <div class="event-times">
 
             <div class="event-time-item">
-                <span>MISA</span>
-                <strong>18:00 hrs</strong>
+
+                <span>
+                    MISA
+                </span>
+
+                <strong>
+                    18:00 hrs
+                </strong>
+
             </div>
+
 
             <div class="event-time-divider"></div>
 
+
             <div class="event-time-item">
-                <span>RECEPCIÓN</span>
-                <strong>19:30 hrs</strong>
+
+                <span>
+                    RECEPCIÓN
+                </span>
+
+                <strong>
+                    19:30 hrs
+                </strong>
+
             </div>
 
         </div>
 
     </div>
 
+
     <h3 class="countdown-title">
         Faltan
     </h3>
+
 
     <div
         class="countdown"
@@ -446,6 +486,7 @@
 
     </div>
 
+
     <div class="calendar-container">
 
         <p>
@@ -457,6 +498,7 @@
             id="calendarButton"
             href="#"
             target="_blank"
+            rel="noopener"
         >
             AGREGAR A MI CALENDARIO
         </a>
@@ -466,7 +508,10 @@
 </section>
 
 
-<!-- INVITADO -->
+
+<!-- ===================================== -->
+<!-- INVITACIÓN PERSONALIZADA -->
+<!-- ===================================== -->
 
 <section class="section reveal">
 
@@ -483,7 +528,27 @@
             Invitado
         </h2>
 
+
         <div class="divider"></div>
+
+
+        <!-- LISTA DE PERSONAS -->
+
+        <div class="invited-people-section">
+
+            <p class="invited-people-title">
+                Personas incluidas en esta invitación
+            </p>
+
+            <div
+                id="invitedPeopleList"
+                class="invited-people-list"
+            ></div>
+
+        </div>
+
+
+        <!-- PASES -->
 
         <div class="passes-container">
 
@@ -498,14 +563,16 @@
                 class="passes-text"
                 id="passesText"
             >
-                lugar reservado
+                lugares reservados
             </span>
 
         </div>
 
+
         <p class="family-message">
             Será un gusto compartir esta noche tan especial contigo.
         </p>
+
 
         <div class="folio-box">
 
@@ -519,32 +586,44 @@
 
         </div>
 
-        <div
-            class="attendance-box"
-            id="attendanceBox"
-        >
+
+        <!-- CONFIRMACIÓN POR PERSONA -->
+
+        <div class="attendance-box">
 
             <p class="attendance-title">
-                ¿Cuántas personas asistirán?
+                Confirma quiénes asistirán
             </p>
 
             <p class="attendance-description">
-                Selecciona el número de personas que nos acompañarán.
+                Selecciona únicamente a las personas que nos acompañarán.
             </p>
 
-            <select
-                id="attendanceSelect"
-                class="attendance-select"
-            >
-                <option value="">
-                    Selecciona una opción
-                </option>
-            </select>
+
+            <div
+                id="attendancePeople"
+                class="attendance-people"
+            ></div>
+
+
+            <div class="attendance-summary">
+
+                <span>
+                    Asistencia seleccionada
+                </span>
+
+                <strong id="attendanceSummary">
+                    0 personas
+                </strong>
+
+            </div>
 
         </div>
 
+
         <p class="passes-note">
-            Esta invitación es personal y corresponde únicamente a los lugares asignados.
+            Esta invitación es personal y corresponde únicamente
+            a las personas indicadas.
         </p>
 
     </div>
@@ -552,7 +631,10 @@
 </section>
 
 
-<!-- MISA -->
+
+<!-- ===================================== -->
+<!-- CEREMONIA RELIGIOSA -->
+<!-- ===================================== -->
 
 <section class="section reveal">
 
@@ -593,7 +675,10 @@
 </section>
 
 
+
+<!-- ===================================== -->
 <!-- RECEPCIÓN -->
+<!-- ===================================== -->
 
 <section class="section reveal">
 
@@ -643,7 +728,10 @@
 </section>
 
 
+
+<!-- ===================================== -->
 <!-- DRESS CODE -->
+<!-- ===================================== -->
 
 <section class="section reveal">
 
@@ -672,7 +760,10 @@
 </section>
 
 
+
+<!-- ===================================== -->
 <!-- REGALOS -->
+<!-- ===================================== -->
 
 <section class="section reveal">
 
@@ -695,6 +786,7 @@
             puedes elegir la opción que prefieras.
         </p>
 
+
         <div class="gift-options-elegant">
 
             <div class="gift-option-elegant">
@@ -702,6 +794,7 @@
                 <div class="gift-line-icon">
 
                     <svg viewBox="0 0 24 24">
+
                         <rect
                             x="3"
                             y="6"
@@ -711,9 +804,11 @@
                         ></rect>
 
                         <path d="M3 7l9 7 9-7"></path>
+
                     </svg>
 
                 </div>
+
 
                 <div class="gift-option-text">
 
@@ -754,6 +849,7 @@
 
                 </div>
 
+
                 <div class="gift-option-text">
 
                     <h4>
@@ -771,10 +867,12 @@
 
         </div>
 
+
         <a
             class="elegant-button"
             href="https://www.amazon.com.mx/hz/wishlist/ls/1BCQJ8D4XECDQ?ref_=wl_share"
             target="_blank"
+            rel="noopener"
         >
             VER MI WISHLIST
         </a>
@@ -784,7 +882,10 @@
 </section>
 
 
+
+<!-- ===================================== -->
 <!-- CONFIRMACIÓN -->
+<!-- ===================================== -->
 
 <section class="section confirmation-section reveal">
 
@@ -797,6 +898,7 @@
     <p>
         Espero que seas parte de esta gran celebración.
     </p>
+
 
     <div class="rsvp-deadline">
 
@@ -811,22 +913,32 @@
 
     </div>
 
+
     <a
-        class="button"
+        class="button whatsapp-button disabled"
         id="whatsappButton"
         href="#"
         target="_blank"
+        rel="noopener"
     >
         CONFIRMAR POR WHATSAPP
     </a>
 
+
     <p
         id="confirmationWarning"
         class="confirmation-warning"
-    ></p>
+    >
+        Selecciona quiénes asistirán para habilitar la confirmación.
+    </p>
 
 </section>
 
+
+
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
 
 <footer>
 
