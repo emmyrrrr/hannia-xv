@@ -45,6 +45,12 @@ body {
             transparent 25%
         ),
 
+        radial-gradient(
+            circle at 85% 40%,
+            rgba(217,176,140,0.08),
+            transparent 25%
+        ),
+
         linear-gradient(
             180deg,
             #fffdfb,
@@ -65,7 +71,10 @@ body {
 }
 
 
+
+/* ===================================== */
 /* PANTALLAS */
+/* ===================================== */
 
 .welcome-screen,
 .folio-screen {
@@ -145,14 +154,22 @@ body {
 }
 
 
+
+/* ===================================== */
 /* BIENVENIDA */
+/* ===================================== */
 
 .welcome-content,
 .folio-access-card {
 
-    width: min(100%,560px);
+    width:
+        min(
+            100%,
+            560px
+        );
 
-    padding: 55px 25px;
+    padding:
+        55px 25px;
 
     text-align: center;
 
@@ -206,7 +223,11 @@ body {
         cursive;
 
     font-size:
-        clamp(4.5rem,15vw,7rem);
+        clamp(
+            4.5rem,
+            15vw,
+            7rem
+        );
 
     font-weight: 400;
 
@@ -295,7 +316,10 @@ body {
 }
 
 
+
+/* ===================================== */
 /* ACCESO */
+/* ===================================== */
 
 .folio-access-title {
 
@@ -304,7 +328,11 @@ body {
         cursive;
 
     font-size:
-        clamp(2.8rem,10vw,4.2rem);
+        clamp(
+            2.8rem,
+            10vw,
+            4.2rem
+        );
 
     font-weight: 400;
 
@@ -334,7 +362,10 @@ body {
 .access-label {
 
     width:
-        min(100%,320px);
+        min(
+            100%,
+            320px
+        );
 
     display: block;
 
@@ -358,7 +389,10 @@ body {
 .password-input-wrapper {
 
     width:
-        min(100%,320px);
+        min(
+            100%,
+            320px
+        );
 
     height: 58px;
 
@@ -429,6 +463,9 @@ body {
 
     color:
         var(--brown);
+
+    background:
+        transparent;
 }
 
 
@@ -448,7 +485,10 @@ body {
 }
 
 
+
+/* ===================================== */
 /* PORTADA */
+/* ===================================== */
 
 .hero {
 
@@ -468,7 +508,10 @@ body {
 .hero-card {
 
     width:
-        min(100%,680px);
+        min(
+            100%,
+            680px
+        );
 
     padding:
         60px 25px;
@@ -505,7 +548,11 @@ body {
         cursive;
 
     font-size:
-        clamp(4rem,14vw,8rem);
+        clamp(
+            4rem,
+            14vw,
+            8rem
+        );
 
     font-weight: 400;
 
@@ -570,12 +617,18 @@ body {
 }
 
 
-/* MUSICA */
+
+/* ===================================== */
+/* MÚSICA */
+/* ===================================== */
 
 .music-player {
 
     width:
-        min(100%,440px);
+        min(
+            100%,
+            440px
+        );
 
     margin:
         30px auto 0;
@@ -678,12 +731,18 @@ body {
 }
 
 
+
+/* ===================================== */
 /* SECCIONES */
+/* ===================================== */
 
 .section {
 
     width:
-        min(100%,800px);
+        min(
+            100%,
+            800px
+        );
 
     margin: auto;
 
@@ -702,7 +761,11 @@ body {
         cursive;
 
     font-size:
-        clamp(2.8rem,9vw,4.5rem);
+        clamp(
+            2.8rem,
+            9vw,
+            4.5rem
+        );
 
     font-weight: 400;
 
@@ -722,13 +785,20 @@ body {
         serif;
 
     font-size:
-        clamp(1.25rem,4vw,1.7rem);
+        clamp(
+            1.25rem,
+            4vw,
+            1.7rem
+        );
 
     line-height: 1.6;
 }
 
 
+
+/* ===================================== */
 /* FOTOS */
+/* ===================================== */
 
 .photos-section {
 
@@ -742,9 +812,7 @@ body {
 
 
 .subtitle {
-
-    color:
-        var(--text-soft);
+    color: var(--text-soft);
 }
 
 
@@ -765,6 +833,8 @@ body {
     gap: 18px;
 
     overflow-x: auto;
+
+    overflow-y: hidden;
 
     padding:
         30px max(
@@ -789,7 +859,11 @@ body {
 .polaroid {
 
     flex:
-        0 0 min(78vw,350px);
+        0 0
+        min(
+            78vw,
+            350px
+        );
 
     padding:
         14px 14px 45px;
@@ -874,9 +948,13 @@ body {
 
     height: 9px;
 
+    padding: 0;
+
     border: none;
 
     border-radius: 50%;
+
+    cursor: pointer;
 
     background:
         var(--rose-light);
@@ -893,12 +971,18 @@ body {
 }
 
 
+
+/* ===================================== */
 /* FECHA */
+/* ===================================== */
 
 .date-card {
 
     width:
-        min(100%,560px);
+        min(
+            100%,
+            560px
+        );
 
     margin: auto;
 
@@ -1020,7 +1104,10 @@ body {
 }
 
 
+
+/* ===================================== */
 /* CONTADOR */
+/* ===================================== */
 
 .countdown-title {
 
@@ -1079,20 +1166,26 @@ body {
 }
 
 
-/* INVITADOS */
+
+/* ===================================== */
+/* TARJETA DE INVITADOS */
+/* ===================================== */
 
 .family-card {
 
     width:
-        min(100%,560px);
+        min(
+            100%,
+            590px
+        );
 
     margin: auto;
 
     padding:
-        45px 25px;
+        46px 30px;
 
     background:
-        rgba(255,250,246,0.95);
+        rgba(255,250,246,0.97);
 
     border:
         1px solid
@@ -1103,11 +1196,106 @@ body {
 }
 
 
+.family-intro {
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    color:
+        var(--text-soft);
+}
+
+
 .family-name {
 
     font-family:
         "Parisienne",
         cursive !important;
+
+    margin-bottom: 10px;
+}
+
+
+
+/* ===================================== */
+/* PERSONAS INCLUIDAS */
+/* ===================================== */
+
+.invited-people-section {
+
+    width: 100%;
+
+    max-width: 450px;
+
+    margin:
+        5px auto 35px;
+
+    padding:
+        25px 22px;
+
+    border-top:
+        1px solid
+        rgba(183,110,121,0.18);
+
+    border-bottom:
+        1px solid
+        rgba(183,110,121,0.18);
+}
+
+
+.invited-people-title {
+
+    margin:
+        0 0 17px;
+
+    font-size: 0.64rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.14em;
+
+    color:
+        var(--text-soft);
+}
+
+
+.invited-people-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 9px;
+}
+
+
+.invited-person-name {
+
+    margin: 0;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 1.17rem;
+
+    line-height: 1.35;
+
+    color:
+        var(--brown);
+}
+
+
+
+/* ===================================== */
+/* PASES */
+/* ===================================== */
+
+.passes-container {
+
+    margin:
+        15px auto 20px;
 }
 
 
@@ -1121,6 +1309,8 @@ body {
 
     font-size: 5rem;
 
+    line-height: 1;
+
     color:
         var(--rose-gold-dark);
 }
@@ -1128,11 +1318,28 @@ body {
 
 .passes-text {
 
-    font-size: 0.72rem;
+    display: block;
+
+    margin-top: 5px;
+
+    font-size: 0.68rem;
 
     text-transform: uppercase;
 
     letter-spacing: 0.18em;
+
+    color:
+        var(--champagne);
+}
+
+
+.family-message {
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 1.2rem;
 }
 
 
@@ -1145,6 +1352,8 @@ body {
     padding:
         10px 18px;
 
+    margin-top: 5px;
+
     border:
         1px solid
         rgba(183,110,121,0.30);
@@ -1153,45 +1362,269 @@ body {
 }
 
 
+
+/* ===================================== */
+/* CONFIRMACIÓN INDIVIDUAL */
+/* ===================================== */
+
 .attendance-box {
 
-    margin:
-        30px auto 10px;
+    max-width: 470px;
 
-    padding: 20px;
+    margin:
+        32px auto 10px;
+
+    padding:
+        26px 22px;
+
+    border-radius: 24px;
 
     background:
-        rgba(183,110,121,0.07);
-}
 
-
-.attendance-box.hidden {
-    display: none;
-}
-
-
-.attendance-select {
-
-    width: 100%;
-
-    padding: 13px;
+        linear-gradient(
+            145deg,
+            rgba(183,110,121,0.06),
+            rgba(217,176,140,0.08)
+        );
 
     border:
         1px solid
-        var(--rose-light);
-
-    border-radius: 30px;
-
-    background: white;
+        rgba(183,110,121,0.15);
 }
 
 
-/* TARJETAS */
+.attendance-title {
+
+    margin:
+        0 0 5px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 1.45rem;
+
+    color:
+        var(--rose-gold-dark);
+}
+
+
+.attendance-description {
+
+    margin:
+        0 auto 20px;
+
+    font-size: 0.72rem;
+
+    line-height: 1.5;
+
+    color:
+        var(--text-soft);
+}
+
+
+.attendance-people {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+.attendance-person {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    width: 100%;
+
+    padding:
+        14px 15px;
+
+    border-radius: 18px;
+
+    cursor: pointer;
+
+    text-align: left;
+
+    background:
+        rgba(255,255,255,0.85);
+
+    border:
+        1px solid
+        rgba(183,110,121,0.18);
+
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.attendance-person:hover {
+
+    transform:
+        translateY(-1px);
+
+    border-color:
+        rgba(183,110,121,0.38);
+}
+
+
+.attendance-person.selected {
+
+    background:
+        rgba(183,110,121,0.09);
+
+    border-color:
+        rgba(183,110,121,0.45);
+}
+
+
+.attendance-person input {
+
+    position: absolute;
+
+    opacity: 0;
+
+    pointer-events: none;
+}
+
+
+.custom-checkbox {
+
+    flex:
+        0 0 23px;
+
+    width: 23px;
+
+    height: 23px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    border:
+        1.5px solid
+        var(--rose-gold);
+
+    background: white;
+
+    transition:
+        background 0.2s ease;
+}
+
+
+.attendance-person.selected
+.custom-checkbox {
+
+    background:
+        var(--rose-gold);
+}
+
+
+.attendance-person.selected
+.custom-checkbox::after {
+
+    content: "✓";
+
+    color: white;
+
+    font-size: 0.75rem;
+
+    font-weight: 600;
+}
+
+
+.attendance-person-name {
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 1.05rem;
+
+    line-height: 1.3;
+
+    color:
+        var(--brown);
+}
+
+
+.attendance-summary {
+
+    margin-top: 22px;
+
+    padding-top: 18px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+    border-top:
+        1px solid
+        rgba(183,110,121,0.18);
+
+    font-size: 0.68rem;
+
+    color:
+        var(--text-soft);
+}
+
+
+.attendance-summary strong {
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 1.12rem;
+
+    color:
+        var(--rose-gold-dark);
+}
+
+
+.passes-note {
+
+    margin-top: 24px;
+
+    font-size: 0.67rem;
+
+    line-height: 1.5;
+
+    color:
+        var(--text-soft);
+}
+
+
+
+/* ===================================== */
+/* TARJETAS DEL EVENTO */
+/* ===================================== */
 
 .elegant-card {
 
     width:
-        min(100%,590px);
+        min(
+            100%,
+            590px
+        );
 
     margin: auto;
 
@@ -1252,7 +1685,11 @@ body {
         cursive;
 
     font-size:
-        clamp(3.2rem,10vw,4.4rem);
+        clamp(
+            3.2rem,
+            10vw,
+            4.4rem
+        );
 
     font-weight: 400;
 
@@ -1316,6 +1753,11 @@ body {
 }
 
 
+
+/* ===================================== */
+/* BOTONES */
+/* ===================================== */
+
 .elegant-button,
 .button {
 
@@ -1351,7 +1793,18 @@ body {
 }
 
 
+.whatsapp-button.disabled {
+
+    opacity: 0.45;
+
+    pointer-events: none;
+}
+
+
+
+/* ===================================== */
 /* DRESS CODE */
+/* ===================================== */
 
 .dress-description {
 
@@ -1370,9 +1823,7 @@ body {
 
 
 .dress-description strong {
-
-    color:
-        #f8e4cf;
+    color: #f8e4cf;
 }
 
 
@@ -1386,7 +1837,10 @@ body {
 }
 
 
+
+/* ===================================== */
 /* REGALOS */
+/* ===================================== */
 
 .gifts-intro {
 
@@ -1421,8 +1875,7 @@ body {
 
     align-items: center;
 
-    padding:
-        20px;
+    padding: 20px;
 
     border-radius: 24px;
 
@@ -1492,7 +1945,10 @@ body {
 }
 
 
-/* CONFIRMACION */
+
+/* ===================================== */
+/* CONFIRMACIÓN */
+/* ===================================== */
 
 .rsvp-deadline {
 
@@ -1501,8 +1957,7 @@ body {
     margin:
         25px auto;
 
-    padding:
-        18px;
+    padding: 18px;
 
     border-top:
         1px solid
@@ -1550,7 +2005,10 @@ body {
 }
 
 
+
+/* ===================================== */
 /* FOOTER */
+/* ===================================== */
 
 footer {
 
@@ -1574,7 +2032,10 @@ footer {
 }
 
 
+
+/* ===================================== */
 /* ANIMACIONES */
+/* ===================================== */
 
 .reveal {
 
@@ -1597,7 +2058,10 @@ footer {
 }
 
 
+
+/* ===================================== */
 /* RESPONSIVE */
+/* ===================================== */
 
 @media (max-width:600px) {
 
@@ -1605,6 +2069,14 @@ footer {
 
         padding:
             60px 18px;
+    }
+
+
+    .welcome-content,
+    .folio-access-card {
+
+        padding:
+            42px 20px;
     }
 
 
@@ -1616,8 +2088,15 @@ footer {
 
 
     .name {
-
         font-size: 4.8rem;
+    }
+
+
+    .hero-hour {
+
+        line-height: 1.5;
+
+        font-size: 0.67rem;
     }
 
 
@@ -1630,26 +2109,75 @@ footer {
 
 
     .polaroid {
-
         flex-basis: 78vw;
     }
 
 
     .polaroid img {
-
         height: 310px;
     }
 
 
     .countdown {
-
         gap: 6px;
     }
 
 
     .count-number {
-
         font-size: 1.8rem;
+    }
+
+
+    .day-number {
+        font-size: 5rem;
+    }
+
+
+    .family-card {
+
+        padding:
+            40px 18px;
+    }
+
+
+    .invited-people-section {
+
+        padding:
+            22px 10px;
+    }
+
+
+    .invited-person-name {
+
+        font-size: 1.08rem;
+    }
+
+
+    .attendance-box {
+
+        padding:
+            22px 14px;
+    }
+
+
+    .attendance-person {
+
+        padding:
+            13px 12px;
+    }
+
+
+    .attendance-person-name {
+
+        font-size: 0.98rem;
+    }
+
+
+    .attendance-summary {
+
+        flex-direction: column;
+
+        gap: 6px;
     }
 
 
